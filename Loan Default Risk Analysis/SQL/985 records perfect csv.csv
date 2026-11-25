@@ -1,0 +1,986 @@
+Customer_ID,Loan_ID,Loan_Amount,Loan_Purpose,Loan_Term_Months,EMI_Amount,Recovery_Amount,Loan_Status,Annual_Income,Age,Credit_Score,Loan_Date,Interest_Rate,Payment_Due_Date,Days_Past_Due,Data_Quality_Flag,What We Do,Outstanding_Balance
+CUST10303,LN100001,490000,Home Improvement,48,12296.3,0,Repaid,1870000,21,715,01-01-2021,9.44,01-01-2025,0,No Flag,No specific action required.,0
+CUST10385,LN100002,120000,Personal,24,5710.66,0,Repaid,689000,47,641,01-01-2021,13.1,01-01-2023,0,No Flag,No specific action required.,0
+CUST10452,LN100003,105000,Debt Consolidation,24,4890.9,0,Repaid,950000,51,722,02-01-2021,10.94,02-01-2023,0,No Flag,No specific action required.,0
+CUST10655,LN100004,320000,Debt Consolidation,48,8667.62,0,Repaid,797000,52,684,05-01-2021,13.52,05-01-2025,0,No Flag,No specific action required.,0
+CUST10628,LN100005,175000,Personal,60,3713.93,0,Repaid,397000,32,768,08-01-2021,9.95,08-01-2026,0,No Flag,No specific action required.,0
+CUST10063,LN100006,330000,Medical,12,29825.74,0,Repaid,800000,35,688,13-01-2021,15.26,13-01-2022,0,No Flag,No specific action required.,0
+CUST10082,LN100007,120000,Medical,24,5440.97,0,Repaid,914000,48,763,14-01-2021,8.25,14-01-2023,0,No Flag,No specific action required.,0
+CUST10216,LN100008,185000,Personal,36,6202.24,0,Repaid,664000,23,738,21-01-2021,12.65,21-01-2024,0,No Flag,No specific action required.,0
+CUST10349,LN100009,130000,Home Improvement,24,6114.7,0,Repaid,266000,32,671,21-01-2021,11.92,21-01-2023,0,No Flag,No specific action required.,0
+CUST10623,LN100010,90000,Education,36,3169.91,0,Repaid,325000,23,571,23-01-2021,16.13,23-01-2024,0,No Flag,No specific action required.,0
+CUST10287,LN100011,100000,Education,12,8649.45,0,Repaid,465000,31,774,26-01-2021,6.93,26-01-2022,0,No Flag,Missing Annual Income filled with 465000.,0
+CUST10083,LN100012,230000,Personal,24,10891.46,97881.18,Default,366000,37,652,30-01-2021,12.6,30-04-2021,2010,No Flag,No specific action required.,212958.09
+CUST10692,LN100013,345000,Education,36,10926,0,Repaid,961000,60,813,01-02-2021,8.72,01-02-2024,0,No Flag,No specific action required.,0
+CUST10583,LN100014,50000,Medical,24,2437.66,0,Default,391000,36,534,02-02-2021,15.56,02-10-2022,1490,No Flag,No specific action required.,11728.14
+CUST10424,LN100015,50000,Medical,12,4416.75,0,Repaid,365000,48,696,06-02-2021,10.9,06-02-2022,0,No Flag,No specific action required.,0
+CUST10414,LN100016,155000,Education,36,5070.83,102563.69,Default,308000,48,626,09-02-2021,10.95,09-06-2021,1970,No Flag,No specific action required.,143930.23
+CUST10062,LN100017,50000,Home Improvement,48,1294.71,0,Repaid,740000,38,657,09-02-2021,11.1,09-02-2025,0,No Flag,No specific action required.,0
+CUST10081,LN100018,380000,Home Improvement,60,8806.51,0,Repaid,538000,27,709,11-02-2021,13.82,11-02-2026,0,No Flag,No specific action required.,0
+CUST10519,LN100019,85000,Home Improvement,24,4003.23,0,Repaid,478000,35,604,11-02-2021,12.05,11-02-2023,0,No Flag,No specific action required.,0
+CUST10388,LN100020,50000,Education,24,2254.07,0,Repaid,456000,29,642,12-02-2021,7.68,12-02-2023,0,No Flag,No specific action required.,0
+CUST10154,LN100021,75000,Personal,48,1927.51,0,Repaid,943000,47,690,13-02-2021,10.7,13-02-2025,0,No Flag,No specific action required.,0
+CUST10548,LN100022,415000,Education,36,13539.45,0,Repaid,693000,45,768,18-02-2021,10.76,18-02-2024,0,No Flag,No specific action required.,0
+CUST10646,LN100023,545000,Medical,24,27584.04,45708.96,Default,432000,54,567,24-02-2021,19.42,24-12-2022,1407,No Flag,No specific action required.,80144.23
+CUST10636,LN100024,165000,Personal,24,7825.81,0,Repaid,347000,37,677,24-02-2021,12.76,24-02-2023,0,No Flag,No specific action required.,0
+CUST10304,LN100025,250000,Personal,48,6876.85,0,Repaid,670000,30,576,25-02-2021,14.36,25-02-2025,0,No Flag,No specific action required.,0
+CUST10194,LN100026,95000,Home Improvement,36,2989.24,0,Repaid,762000,34,790,26-02-2021,8.28,26-02-2024,0,No Flag,No specific action required.,0
+CUST10589,LN100027,280000,Education,48,7617.75,0,Repaid,452000,37,609,27-02-2021,13.76,27-02-2025,0,No Flag,Credit Score corrected to 609 using customer records.,0
+CUST10257,LN100028,80000,Education,24,3741.64,0,Repaid,386000,43,592,28-02-2021,11.35,28-02-2023,0,No Flag,No specific action required.,0
+CUST10101,LN100029,240000,Education,12,21276.58,0,Repaid,1063000,40,641,05-03-2021,11.58,05-03-2022,0,No Flag,No specific action required.,0
+CUST10681,LN100030,70000,Personal,36,2356.89,0,Repaid,652000,45,619,07-03-2021,12.95,07-03-2024,0,No Flag,No specific action required.,0
+CUST10224,LN100031,280000,Debt Consolidation,60,5896.95,0,Repaid,1539000,49,721,09-03-2021,9.62,09-03-2026,0,No Flag,No specific action required.,0
+CUST10389,LN100032,505000,Personal,36,17015.45,0,Repaid,732000,42,750,16-03-2021,13,16-03-2024,0,No Flag,No specific action required.,0
+CUST10043,LN100033,90000,Personal,24,4119.89,0,Repaid,292000,31,767,19-03-2021,9.2,19-03-2023,0,No Flag,No specific action required.,0
+CUST10514,LN100034,415000,Medical,60,8793.04,0,Repaid,1699000,36,772,27-03-2021,9.88,27-03-2026,0,No Flag,No specific action required.,0
+CUST10510,LN100035,665000,Home Improvement,24,30249.32,0,Repaid,1311000,39,758,29-03-2021,8.57,29-03-2023,0,No Flag,No specific action required.,0
+CUST10391,LN100036,300000,Personal,36,9862.87,0,Repaid,689000,35,742,29-03-2021,11.29,29-03-2024,0,No Flag,No specific action required.,0
+CUST10049,LN100037,195000,Home Improvement,36,6340.74,0,Repaid,514000,21,661,31-03-2021,10.53,31-03-2024,0,No Flag,No specific action required.,0
+CUST10413,LN100038,1000000,Home Improvement,12,86176.78,0,Repaid,2000000,40,734,31-03-2021,6.24,31-03-2022,0,No Flag,No specific action required.,0
+CUST10248,LN100039,80000,Personal,24,3878.17,0,Repaid,459000,30,542,02-04-2021,14.98,02-04-2023,0,No Flag,No specific action required.,0
+CUST10620,LN100040,275000,Debt Consolidation,24,13539.87,0,Repaid,942000,26,549,03-04-2021,16.57,03-04-2023,0,No Flag,No specific action required.,0
+CUST10216,LN100041,125000,Home Improvement,12,10765.77,0,Repaid,664000,23,738,05-04-2021,6.13,05-04-2022,0,No Flag,No specific action required.,0
+CUST10407,LN100042,170000,Debt Consolidation,48,4298.59,0,Repaid,702000,45,669,05-04-2021,9.84,05-04-2025,0,No Flag,No specific action required.,0
+CUST10007,LN100043,925000,Personal,36,31560.42,0,Repaid,1529000,44,580,05-04-2021,13.88,05-04-2024,0,No Flag,No specific action required.,0
+CUST10201,LN100044,70000,Personal,36,2393.11,0,Repaid,283000,40,654,07-04-2021,14.02,07-04-2024,0,No Flag,No specific action required.,0
+CUST10287,LN100045,70000,Debt Consolidation,36,2289.06,0,Repaid,465000,31,774,07-04-2021,10.92,07-04-2024,0,No Flag,Missing Annual Income filled with 465000.,0
+CUST10220,LN100046,125000,Home Improvement,36,4108.34,0,Repaid,422000,24,661,07-04-2021,11.27,07-04-2024,0,No Flag,No specific action required.,0
+CUST10268,LN100047,105000,Home Improvement,36,3487,0,Repaid,463000,26,642,09-04-2021,11.99,09-04-2024,0,No Flag,Repaid loan has Outstanding Balance set to 0.,0
+CUST10031,LN100048,135000,Personal,12,11671.16,0,Repaid,960000,30,711,15-04-2021,6.84,15-04-2022,0,No Flag,No specific action required.,0
+CUST10658,LN100049,105000,Home Improvement,36,3550.52,0,Repaid,445000,27,543,15-04-2021,13.25,15-04-2024,0,No Flag,No specific action required.,0
+CUST10357,LN100050,110000,Debt Consolidation,36,3685.71,0,Repaid,858000,40,637,18-04-2021,12.61,18-04-2024,0,No Flag,No specific action required.,0
+CUST10251,LN100051,1000000,Education,60,23133.68,0,Repaid,916000,29,726,18-04-2021,13.74,18-04-2026,0,No Flag,No specific action required.,0
+CUST10352,LN100052,90000,Education,60,2329.7,0,Repaid,853000,46,442,25-04-2021,18.9,25-04-2026,0,No Flag,No specific action required.,0
+CUST10482,LN100053,210000,Personal,36,7312.67,0,Repaid,648000,33,628,30-04-2021,15.32,30-04-2024,0,No Flag,No specific action required.,0
+CUST10261,LN100054,200000,Debt Consolidation,36,6732.05,0,Repaid,452000,50,716,02-05-2021,12.93,02-05-2024,0,No Flag,No specific action required.,0
+CUST10466,LN100055,185000,Education,12,16497.67,0,Repaid,692000,23,612,03-05-2021,12.7,03-05-2022,0,No Flag,No specific action required.,0
+CUST10612,LN100056,295000,Home Improvement,24,14386.39,0,Repaid,626000,32,558,04-05-2021,15.59,04-05-2023,0,No Flag,No specific action required.,0
+CUST10696,LN100057,85000,Debt Consolidation,60,1897.66,0,Repaid,440000,41,696,09-05-2021,12.16,09-05-2026,0,No Flag,No specific action required.,0
+CUST10629,LN100058,230000,Home Improvement,24,10849.47,0,Repaid,930000,49,647,19-05-2021,12.21,19-05-2023,0,No Flag,No specific action required.,0
+CUST10243,LN100059,240000,Personal,24,12116.73,0,Default,369000,27,520,19-05-2021,19.16,19-10-2021,1838,No Flag,No specific action required.,206058.91
+CUST10067,LN100060,120000,Personal,24,5533.51,0,Repaid,592000,46,661,25-05-2021,9.93,25-05-2023,0,No Flag,No specific action required.,0
+CUST10272,LN100061,290000,Home Improvement,60,5721.85,0,Repaid,1957000,32,794,26-05-2021,6.85,26-05-2026,0,No Flag,No specific action required.,0
+CUST10682,LN100062,85000,Personal,48,2448.72,0,Repaid,396000,46,492,27-05-2021,16.91,27-05-2025,0,No Flag,No specific action required.,0
+CUST10590,LN100063,105000,Education,60,2351.62,0,Repaid,277000,50,637,29-05-2021,12.3,29-05-2026,0,No Flag,No specific action required.,0
+CUST10302,LN100064,1000000,Medical,24,46552.14,0,Repaid,1967000,49,685,30-05-2021,10.88,30-05-2023,0,No Flag,No specific action required.,0
+CUST10176,LN100065,820000,Education,24,39607.28,0,Repaid,2000000,31,631,01-06-2021,14.61,01-06-2023,0,No Flag,No specific action required.,0
+CUST10135,LN100066,175000,Debt Consolidation,48,4663.6,0,Repaid,660000,23,704,03-06-2021,12.64,03-06-2025,0,No Flag,No specific action required.,0
+CUST10120,LN100067,245000,Personal,36,8038.4,0,Repaid,754000,41,680,04-06-2021,11.15,04-06-2024,0,No Flag,No specific action required.,0
+CUST10184,LN100068,85000,Home Improvement,36,2693.49,0,Repaid,664000,36,689,05-06-2021,8.76,05-06-2024,0,No Flag,No specific action required.,0
+CUST10472,LN100069,175000,Home Improvement,48,4406.58,0,Repaid,550000,38,744,08-06-2021,9.62,08-06-2025,0,No Flag,Age text '38 yrs' standardized to 38.,0
+CUST10638,LN100070,210000,Personal,24,9808.13,0,Repaid,906000,25,732,10-06-2021,11.21,10-06-2023,0,No Flag,No specific action required.,0
+CUST10540,LN100071,200000,Personal,60,4740.16,0,Default,557000,50,588,11-06-2021,14.83,11-06-2024,872,No Flag,No specific action required.,101412.04
+CUST10457,LN100072,320000,Debt Consolidation,36,11088.2,0,Repaid,927000,25,626,12-06-2021,14.97,12-06-2024,0,No Flag,No specific action required.,0
+CUST10196,LN100073,555000,Debt Consolidation,24,26783.69,0,Repaid,1235000,21,657,15-06-2021,14.52,15-06-2023,0,No Flag,No specific action required.,0
+CUST10162,LN100074,510000,Debt Consolidation,12,46931.73,0,Default,1460000,23,547,16-06-2021,18.72,16-09-2021,1871,No Flag,No specific action required.,431440.52
+CUST10110,LN100075,125000,Home Improvement,36,4161.95,0,Repaid,509000,36,674,18-06-2021,12.17,18-06-2024,0,No Flag,No specific action required.,0
+CUST10295,LN100076,840000,Debt Consolidation,36,30740.12,293408.34,Default,654000,32,634,23-06-2021,18.88,23-05-2022,1622,No Flag,No specific action required.,651816.61
+CUST10393,LN100077,145000,Personal,24,6869.75,0,Repaid,349000,27,687,24-06-2021,12.65,24-06-2023,0,No Flag,No specific action required.,0
+CUST10560,LN100078,90000,Personal,60,1804.7,0,Repaid,481000,27,850,28-06-2021,7.53,28-06-2026,0,No Flag,No specific action required.,0
+CUST10199,LN100079,305000,Personal,60,7122.14,0,Repaid,860000,36,650,03-07-2021,14.16,03-07-2026,0,No Flag,No specific action required.,0
+CUST10192,LN100080,175000,Medical,12,15707.81,16540.3,Default,512000,31,575,06-07-2021,13.94,06-12-2021,1790,No Flag,No specific action required.,119339.9
+CUST10396,LN100081,140000,Education,48,3388.31,0,Repaid,456000,45,850,08-07-2021,7.55,08-07-2025,0,No Flag,No specific action required.,0
+CUST10343,LN100082,65000,Personal,24,3112.55,0,Repaid,502000,52,524,13-07-2021,13.73,13-07-2023,0,No Flag,No specific action required.,0
+CUST10562,LN100083,180000,Debt Consolidation,36,6260.94,0,Repaid,1264000,32,606,18-07-2021,15.24,18-07-2024,0,No Flag,No specific action required.,0
+CUST10324,LN100084,120000,Medical,24,5661.15,0,Repaid,587000,30,693,25-07-2021,12.22,25-07-2023,0,No Flag,No specific action required.,0
+CUST10606,LN100085,245000,Home Improvement,24,11307.77,0,Repaid,1248000,29,701,29-07-2021,10.02,29-07-2023,0,No Flag,No specific action required.,0
+CUST10382,LN100086,65000,Home Improvement,36,2271.43,0,Repaid,218000,28,559,30-07-2021,15.57,30-07-2024,0,No Flag,No specific action required.,0
+CUST10130,LN100087,1000000,Education,60,23732.23,0,Repaid,2000000,45,628,01-08-2021,14.89,01-08-2026,0,No Flag,No specific action required.,0
+CUST10625,LN100088,130000,Medical,12,11743.4,0,Repaid,617000,38,591,03-08-2021,15.16,03-08-2022,0,No Flag,No specific action required.,0
+CUST10362,LN100089,170000,Home Improvement,48,3992.45,0,Repaid,699000,44,850,03-08-2021,6,03-08-2025,0,No Flag,No specific action required.,0
+CUST10709,LN100090,420000,Debt Consolidation,60,10901.97,0,Repaid,392000,37,720,04-08-2021,19.03,04-08-2026,0,No Flag,No specific action required.,0
+CUST10672,LN100091,355000,Education,24,17004.35,0,Repaid,656000,33,684,05-08-2021,13.76,05-08-2023,0,No Flag,No specific action required.,0
+CUST10646,LN100092,205000,Medical,60,5015.75,0,Repaid,432000,54,567,05-08-2021,16.28,05-08-2026,0,No Flag,No specific action required.,0
+CUST10706,LN100093,150000,Personal,24,6913.43,59963.81,Default,272000,46,638,05-08-2021,9.88,05-01-2022,1760,No Flag,No specific action required.,127004.21
+CUST10078,LN100094,325000,Home Improvement,48,8838.78,0,Repaid,1228000,52,634,10-08-2021,13.74,10-08-2025,0,No Flag,No specific action required.,0
+CUST10322,LN100095,110000,Medical,48,2617.28,0,Repaid,515000,33,850,11-08-2021,6.67,11-08-2025,0,No Flag,No specific action required.,0
+CUST10197,LN100096,275000,Personal,12,24610.01,0,Repaid,565000,54,594,11-08-2021,13.37,11-08-2022,0,No Flag,No specific action required.,0
+CUST10296,LN100097,90000,Personal,12,7876.48,0,Repaid,782000,37,748,12-08-2021,9.14,12-08-2022,0,No Flag,No specific action required.,0
+CUST10049,LN100098,165000,Personal,36,5468.55,7924.65,Default,514000,21,661,14-08-2021,11.85,14-03-2024,961,No Flag,No specific action required.,31706.46
+CUST10002,LN100099,120000,Education,60,2737.75,0,Repaid,534000,23,669,18-08-2021,13.12,18-08-2026,0,No Flag,No specific action required.,0
+CUST10375,LN100100,265000,Personal,12,23044.58,0,Repaid,2000000,45,687,24-08-2021,7.94,24-08-2022,0,No Flag,No specific action required.,0
+CUST10297,LN100101,130000,Medical,60,3325.24,0,Repaid,370000,40,572,24-08-2021,18.34,24-08-2026,0,No Flag,No specific action required.,0
+CUST10375,LN100102,535000,Debt Consolidation,12,47057.4,0,Repaid,2000000,45,687,29-08-2021,10.09,29-08-2022,0,No Flag,No specific action required.,0
+CUST10290,LN100103,245000,Education,36,8342.61,0,Repaid,1024000,33,570,30-08-2021,13.74,30-08-2024,0,No Flag,No specific action required.,0
+CUST10647,LN100104,1000000,Medical,12,90277.19,0,Repaid,1440000,52,653,01-09-2021,15.04,01-09-2022,0,No Flag,No specific action required.,0
+CUST10624,LN100105,85000,Home Improvement,36,2649.11,0,Repaid,589000,25,840,01-09-2021,7.63,01-09-2024,0,No Flag,No specific action required.,0
+CUST10629,LN100106,1000000,Education,24,49779.27,0,Repaid,930000,49,647,02-09-2021,17.7,02-09-2023,0,No Flag,No specific action required.,0
+CUST10549,LN100107,90000,Medical,48,2427,0,Repaid,441000,44,663,02-09-2021,13.28,02-09-2025,0,No Flag,No specific action required.,0
+CUST10185,LN100108,170000,Debt Consolidation,24,8081.31,0,Repaid,840000,27,673,04-09-2021,12.99,04-09-2023,0,No Flag,No specific action required.,0
+CUST10473,LN100109,155000,Personal,60,3543.41,0,Default,645000,36,599,07-09-2021,13.21,07-12-2023,1059,No Flag,No specific action required.,100044.89
+CUST10347,LN100110,410000,Home Improvement,36,12868.73,0,Repaid,800000,34,850,08-09-2021,8.11,08-09-2024,0,No Flag,No specific action required.,0
+CUST10618,LN100111,425000,Home Improvement,36,15167.22,0,Default,1219000,33,531,09-09-2021,17.07,09-07-2024,844,No Flag,No specific action required.,44237.19
+CUST10699,LN100112,70000,Home Improvement,36,2166.52,0,Repaid,288000,46,708,12-09-2021,7.16,12-09-2024,0,No Flag,No specific action required.,0
+CUST10231,LN100113,245000,Medical,24,11474.74,12492.75,Default,522000,48,627,13-09-2021,11.49,13-06-2023,1236,No Flag,No specific action required.,44820.93
+CUST10218,LN100114,885000,Debt Consolidation,36,31482.24,0,Repaid,1682000,48,593,21-09-2021,16.84,21-09-2024,0,No Flag,No specific action required.,0
+CUST10458,LN100115,125000,Debt Consolidation,12,11242.22,0,Repaid,703000,21,554,25-09-2021,14.32,25-09-2022,0,No Flag,No specific action required.,0
+CUST10097,LN100116,275000,Personal,24,13765.03,0,Repaid,589000,39,581,25-09-2021,18.27,25-09-2023,0,No Flag,No specific action required.,0
+CUST10417,LN100117,50000,Debt Consolidation,36,1705.73,0,Repaid,496000,42,615,25-09-2021,13.87,25-09-2024,0,No Flag,No specific action required.,0
+CUST10497,LN100118,50000,Education,24,2328.07,0,Repaid,491000,52,682,26-09-2021,10.9,26-09-2023,0,No Flag,No specific action required.,0
+CUST10459,LN100119,865000,Personal,12,78719.8,0,Repaid,1508000,37,609,02-10-2021,16.58,02-10-2022,0,No Flag,No specific action required.,0
+CUST10696,LN100120,160000,Education,12,14148.53,0,Repaid,440000,41,696,03-10-2021,11.1,03-10-2022,0,No Flag,No specific action required.,0
+CUST10404,LN100121,655000,Personal,12,60287.56,0,Repaid,742000,30,545,08-10-2021,18.76,08-10-2022,0,No Flag,No specific action required.,0
+CUST10628,LN100122,70000,Education,24,3145.2,0,Repaid,397000,32,768,14-10-2021,7.35,14-10-2023,0,No Flag,No specific action required.,0
+CUST10408,LN100123,150000,Personal,36,4920.05,0,Repaid,565000,31,670,15-10-2021,11.13,15-10-2024,0,No Flag,No specific action required.,0
+CUST10382,LN100124,65000,Home Improvement,24,3027.1,0,Repaid,218000,28,559,17-10-2021,10.92,17-10-2023,0,No Flag,No specific action required.,0
+CUST10469,LN100125,210000,Personal,12,19009.78,0,Repaid,690000,33,532,18-10-2021,15.56,18-10-2022,0,No Flag,No specific action required.,0
+CUST10362,LN100126,65000,Personal,48,1618.45,0,Repaid,699000,44,850,21-10-2021,9.03,21-10-2025,0,No Flag,No specific action required.,0
+CUST10530,LN100127,350000,Medical,36,11412.2,0,Repaid,967000,48,711,23-10-2021,10.72,23-10-2024,0,No Flag,No specific action required.,0
+CUST10438,LN100128,725000,Debt Consolidation,24,34311.38,0,Repaid,1982000,32,695,26-10-2021,12.54,26-10-2023,0,No Flag,No specific action required.,0
+CUST10580,LN100129,220000,Home Improvement,24,9883.91,0,Repaid,973000,34,634,27-10-2021,7.34,27-10-2023,0,No Flag,No specific action required.,0
+CUST10689,LN100130,80000,Home Improvement,36,2643.03,0,Default,426000,26,656,30-10-2021,11.63,30-03-2024,945,No Flag,No specific action required.,20251.1
+CUST10356,LN100131,125000,Debt Consolidation,12,11383.4,0,Repaid,472000,36,535,30-10-2021,16.71,30-10-2022,0,No Flag,No specific action required.,0
+CUST10613,LN100132,240000,Education,48,6304.81,0,Repaid,393000,35,668,31-10-2021,11.87,31-10-2025,0,No Flag,No specific action required.,0
+CUST10538,LN100133,265000,Home Improvement,24,12402.81,0,Repaid,582000,36,534,04-11-2021,11.42,04-11-2023,0,No Flag,No specific action required.,0
+CUST10361,LN100134,100000,Medical,48,2746.71,0,Repaid,446000,21,597,05-11-2021,14.28,05-11-2025,0,No Flag,No specific action required.,0
+CUST10137,LN100135,915000,Personal,36,32241.01,0,Repaid,1166000,33,683,09-11-2021,16.16,09-11-2024,0,No Flag,No specific action required.,0
+CUST10661,LN100136,120000,Personal,60,2740.82,0,Active,713000,25,621,11-11-2021,13.17,11-10-2026,0,No Flag,No specific action required.,2711.07
+CUST10295,LN100137,85000,Home Improvement,24,3949.44,0,Repaid,654000,32,634,12-11-2021,10.69,12-11-2023,0,No Flag,No specific action required.,0
+CUST10234,LN100138,345000,Personal,12,31142.37,0,Repaid,828000,41,602,12-11-2021,15.02,12-11-2022,0,No Flag,No specific action required.,0
+CUST10324,LN100139,95000,Medical,48,2419.04,0,Repaid,587000,30,693,13-11-2021,10.21,13-11-2025,0,No Flag,No specific action required.,0
+CUST10565,LN100140,110000,Personal,36,3743,0,Repaid,593000,21,619,13-11-2021,13.69,13-11-2024,0,No Flag,No specific action required.,0
+CUST10605,LN100141,90000,Unknown,48,2436.87,0,Repaid,498000,50,729,17-11-2021,13.5,17-11-2025,0,No Flag,Missing Loan Purpose filled with Unknown.,0
+CUST10453,LN100142,760000,Debt Consolidation,60,18072.37,0,Active,824000,36,663,17-11-2021,14.98,17-10-2026,0,No Flag,No specific action required.,17849.55
+CUST10444,LN100143,305000,Personal,24,14930.83,122658.35,Default,801000,49,598,18-11-2021,15.98,18-09-2022,1504,No Flag,No specific action required.,201800.84
+CUST10163,LN100144,125000,Medical,36,4235.26,0,Repaid,542000,32,595,18-11-2021,13.39,18-11-2024,0,No Flag,No specific action required.,0
+CUST10640,LN100145,340000,Personal,24,15881.42,0,Repaid,554000,37,733,19-11-2021,11.22,19-11-2023,0,No Flag,No specific action required.,0
+CUST10461,LN100146,335000,Home Improvement,24,15924.94,0,Repaid,1477000,42,664,22-11-2021,12.99,22-11-2023,0,No Flag,No specific action required.,0
+CUST10441,LN100147,430000,Personal,24,19975.55,0,Repaid,1567000,46,662,23-11-2021,10.67,23-11-2023,0,No Flag,No specific action required.,0
+CUST10159,LN100148,225000,Personal,24,10611.51,0,Repaid,445000,52,639,27-11-2021,12.19,27-11-2023,0,No Flag,No specific action required.,0
+CUST10309,LN100149,265000,Debt Consolidation,60,5740.62,0,Active,559000,48,826,02-12-2021,10.84,02-10-2026,29,No Flag,No specific action required.,16915.34
+CUST10619,LN100150,155000,Personal,12,13994.43,0,Repaid,215000,37,592,03-12-2021,15.06,03-12-2022,0,No Flag,No specific action required.,0
+CUST10110,LN100151,150000,Personal,24,7060.32,0,Repaid,509000,36,674,08-12-2021,11.99,08-12-2023,0,No Flag,No specific action required.,0
+CUST10258,LN100152,640000,Personal,12,56791.39,0,Repaid,1092000,27,767,09-12-2021,11.76,09-12-2022,0,No Flag,No specific action required.,0
+CUST10474,LN100153,125000,Personal,60,2633.79,0,Active,593000,32,771,14-12-2021,9.64,14-10-2026,0,No Flag,No specific action required.,5204.78
+CUST10603,LN100154,435000,Medical,60,10647.82,0,Active,1134000,33,549,15-12-2021,16.3,15-09-2026,46,No Flag,No specific action required.,41183.32
+CUST10335,LN100155,50000,Personal,60,1099.38,0,Active,231000,23,672,20-12-2021,11.49,20-10-2026,0,No Flag,No specific action required.,2167.58
+CUST10005,LN100156,360000,Education,60,8075.47,0,Active,1585000,46,665,23-12-2021,12.37,23-10-2026,0,No Flag,No specific action required.,15904.6
+CUST10500,LN100157,130000,Debt Consolidation,12,11330.75,0,Repaid,808000,57,722,24-12-2021,8.37,24-12-2022,0,No Flag,No specific action required.,0
+CUST10610,LN100158,280000,Debt Consolidation,24,13185.8,0,Repaid,651000,39,730,25-12-2021,12.04,25-12-2023,0,No Flag,No specific action required.,0
+CUST10081,LN100159,200000,Personal,12,17467.12,0,Repaid,538000,27,709,28-12-2021,8.75,28-12-2022,0,No Flag,No specific action required.,0
+CUST10255,LN100160,725000,Debt Consolidation,24,34216.36,0,Repaid,2000000,60,748,28-12-2021,12.26,28-12-2023,0,No Flag,No specific action required.,0
+CUST10631,LN100161,50000,Home Improvement,48,1364.57,26243.08,Default,200000,37,467,01-01-2022,13.93,01-01-2023,1399,No Flag,No specific action required.,40855.83
+CUST10074,LN100162,100000,Home Improvement,12,8740.97,0,Repaid,694000,44,665,07-01-2022,8.91,07-01-2023,0,No Flag,No specific action required.,0
+CUST10702,LN100163,265000,Home Improvement,48,6783.62,0,Repaid,830000,28,672,12-01-2022,10.49,12-01-2026,0,No Flag,No specific action required.,0
+CUST10274,LN100888,75000,Debt Consolidation,24,3536.82,0,Active,384000,51,541,12-02-2026,12.18,12-10-2026,0,No Flag,No specific action required.,51990.42
+CUST10050,LN100164,240000,Home Improvement,24,11577.59,0,Repaid,775000,38,658,17-01-2022,14.48,17-01-2024,0,No Flag,No specific action required.,0
+CUST10001,LN100165,125000,Personal,36,3991.86,0,Repaid,487000,36,637,17-01-2022,9.29,17-01-2025,0,No Flag,No specific action required.,0
+CUST10552,LN100166,120000,Home Improvement,36,3650.63,0,Repaid,852000,56,767,21-01-2022,6,21-01-2025,0,No Flag,No specific action required.,0
+CUST10581,LN100167,100000,Personal,60,2476.66,0,Active,200000,30,583,22-01-2022,16.84,22-10-2026,0,No Flag,No specific action required.,7226.23
+CUST10666,LN100168,100000,Education,60,2311.82,0,Active,261000,48,701,23-01-2022,13.71,23-10-2026,0,No Flag,No specific action required.,6779.94
+CUST10472,LN100169,140000,Debt Consolidation,36,4589.39,0,Repaid,550000,38,744,27-01-2022,11.09,27-01-2025,0,No Flag,No specific action required.,0
+CUST10262,LN100170,110000,Personal,24,5118.18,0,Repaid,589000,44,714,27-01-2022,10.83,27-01-2024,0,No Flag,No specific action required.,0
+CUST10432,LN100171,50000,Medical,48,1391.79,0,Repaid,200000,28,559,29-01-2022,15.01,29-01-2026,0,No Flag,No specific action required.,0
+CUST10265,LN100172,115000,Personal,36,3756.79,0,Repaid,597000,53,724,29-01-2022,10.85,29-01-2025,0,No Flag,No specific action required.,0
+CUST10653,LN100173,350000,Debt Consolidation,60,8335.66,0,Active,1238000,40,692,31-01-2022,15.05,31-10-2026,0,No Flag,No specific action required.,24392.6
+CUST10387,LN100174,125000,Medical,24,5968.01,0,Repaid,1158000,42,548,01-02-2022,13.43,01-02-2024,0,No Flag,No specific action required.,0
+CUST10628,LN100175,100000,Debt Consolidation,36,3281.93,0,Repaid,397000,32,768,03-02-2022,11.17,03-02-2025,0,No Flag,No specific action required.,0
+CUST10013,LN100239,235000,Personal,12,20935.57,0,Repaid,869000,44,618,30-05-2022,12.51,30-05-2023,0,No Flag,No specific action required.,0
+CUST10238,LN100176,260000,Personal,36,8160.66,0,Default,876000,34,666,06-02-2022,8.11,06-11-2023,1090,No Flag,No specific action required.,123364.4
+CUST10670,LN100177,440000,Debt Consolidation,60,10492.99,0,Active,1390000,50,638,06-02-2022,15.11,06-10-2026,0,No Flag,No specific action required.,40683.28
+CUST10462,LN100178,175000,Personal,36,5591.05,0,Repaid,408000,49,682,08-02-2022,9.32,08-02-2025,0,No Flag,No specific action required.,0
+CUST10602,LN100179,50000,Personal,36,1740.87,0,Repaid,520000,21,642,11-02-2022,15.31,11-02-2025,0,No Flag,No specific action required.,0
+CUST10535,LN100180,100000,Debt Consolidation,60,2059.86,0,Active,1170000,21,783,11-02-2022,8.67,11-10-2026,0,No Flag,No specific action required.,8092.72
+CUST10591,LN100181,820000,Medical,36,27898.38,0,Repaid,1132000,31,672,13-02-2022,13.68,13-02-2025,0,No Flag,No specific action required.,0
+CUST10260,LN100182,210000,Personal,48,5626.48,0,Repaid,1076000,33,599,16-02-2022,12.93,16-02-2026,0,No Flag,No specific action required.,0
+CUST10693,LN100183,80000,Education,48,2070.75,0,Repaid,307000,33,580,16-02-2022,11.08,16-02-2026,0,No Flag,No specific action required.,0
+CUST10077,LN100832,210000,Personal,36,7148.78,0,Active,698000,51,583,04-11-2025,13.72,04-10-2026,0,No Flag,No specific action required.,154684.11
+CUST10423,LN100184,50000,Personal,12,4504.43,0,Repaid,613000,32,541,17-02-2022,14.64,17-02-2023,0,No Flag,No specific action required.,0
+CUST10673,LN100185,145000,Personal,60,3070.84,0,Active,660000,39,668,19-02-2022,9.86,19-10-2026,0,No Flag,No specific action required.,12035.14
+CUST10289,LN100186,165000,Personal,48,4523.78,0,Repaid,369000,27,720,20-02-2022,14.18,20-02-2026,0,No Flag,No specific action required.,0
+CUST10223,LN100187,185000,Debt Consolidation,12,16331.63,13106.62,Default,478000,43,723,23-02-2022,10.78,23-01-2023,1377,No Flag,No specific action required.,32228.33
+CUST10529,LN100188,265000,Medical,24,12212.51,0,Repaid,779000,39,731,24-02-2022,9.87,24-02-2024,0,No Flag,No specific action required.,0
+CUST10465,LN100189,95000,Debt Consolidation,36,3068.95,0,Repaid,661000,33,753,24-02-2022,10.08,24-02-2025,0,No Flag,No specific action required.,0
+CUST10654,LN100190,220000,Home Improvement,36,7489.19,0,Repaid,434000,34,586,25-02-2022,13.72,25-02-2025,0,No Flag,No specific action required.,0
+CUST10047,LN100191,50000,Debt Consolidation,36,1700.64,0,Repaid,290000,41,672,25-02-2022,13.66,25-02-2025,0,No Flag,No specific action required.,0
+CUST10084,LN100192,390000,Education,24,19402.63,0,Default,419000,21,531,26-02-2022,17.64,26-07-2022,1558,No Flag,No specific action required.,334103.96
+CUST10430,LN100193,215000,Personal,48,5318.69,0,Repaid,1001000,35,709,26-02-2022,8.69,26-02-2026,0,No Flag,No specific action required.,0
+CUST10226,LN100194,280000,Personal,36,9193.38,0,Repaid,405000,26,693,02-03-2022,11.2,02-03-2025,0,No Flag,No specific action required.,0
+CUST10024,LN100195,60000,Personal,36,2159.82,0,Repaid,598000,39,525,02-03-2022,17.69,02-03-2025,0,No Flag,No specific action required.,0
+CUST10286,LN100196,180000,Home Improvement,60,4014.01,0,Active,587000,39,691,12-03-2022,12.11,12-10-2026,0,No Flag,No specific action required.,19476.47
+CUST10061,LN100197,95000,Personal,36,3026.73,0,Default,271000,28,708,12-03-2022,9.13,12-02-2024,992,No Flag,No specific action required.,40051.21
+CUST10029,LN100198,130000,Home Improvement,24,6214.69,0,Repaid,339000,40,593,14-03-2022,13.56,14-03-2024,0,No Flag,No specific action required.,0
+CUST10015,LN100199,330000,Debt Consolidation,60,8229.77,67913.56,Default,502000,21,555,16-03-2022,17.16,16-06-2024,867,No Flag,No specific action required.,220373.54
+CUST10112,LN100200,195000,Education,36,6104.3,0,Repaid,785000,35,730,17-03-2022,7.93,17-03-2025,0,No Flag,No specific action required.,0
+CUST10007,LN100201,625000,Personal,60,15059.66,0,Active,1529000,44,580,18-03-2022,15.58,18-10-2026,0,No Flag,No specific action required.,72452.04
+CUST10314,LN100202,295000,Debt Consolidation,36,10305.91,0,Repaid,481000,35,634,18-03-2022,15.55,18-03-2025,0,No Flag,No specific action required.,0
+CUST10576,LN100203,335000,Home Improvement,12,29525.1,0,Repaid,849000,45,751,23-03-2022,10.47,23-03-2023,0,No Flag,No specific action required.,0
+CUST10435,LN100204,95000,Personal,60,2062.22,0,Active,469000,31,768,24-03-2022,10.93,24-10-2026,0,No Flag,No specific action required.,10035.21
+CUST10093,LN100205,65000,Personal,24,3172.36,0,Repaid,279000,32,499,28-03-2022,15.67,28-03-2024,0,No Flag,No specific action required.,0
+CUST10621,LN100206,125000,Home Improvement,60,2619.13,0,Active,708000,45,740,28-03-2022,9.4,28-10-2026,3,No Flag,No specific action required.,15292.77
+CUST10509,LN100207,445000,Education,12,39041.9,0,Repaid,1059000,39,715,30-03-2022,9.61,30-03-2023,0,No Flag,No specific action required.,0
+CUST10135,LN100208,95000,Personal,24,4426.42,0,Repaid,660000,23,704,31-03-2022,10.97,31-03-2024,0,No Flag,No specific action required.,0
+CUST10507,LN100209,150000,Education,36,5289.12,0,Repaid,487000,46,589,02-04-2022,16.21,02-04-2025,0,No Flag,No specific action required.,0
+CUST10229,LN100210,225000,Personal,60,5296.21,0,Active,995000,45,551,04-04-2022,14.52,04-10-2026,0,No Flag,No specific action required.,30473.77
+CUST10305,LN100211,105000,Debt Consolidation,36,3478.98,0,Repaid,794000,41,626,12-04-2022,11.83,12-04-2025,0,No Flag,No specific action required.,0
+CUST10165,LN100212,50000,Debt Consolidation,36,1726.91,0,Repaid,794000,21,603,13-04-2022,14.74,13-04-2025,0,No Flag,No specific action required.,0
+CUST10256,LN100213,55000,Debt Consolidation,60,1345.98,0,Active,853000,35,573,17-04-2022,16.29,17-10-2026,0,No Flag,No specific action required.,7705.67
+CUST10103,LN100214,90000,Debt Consolidation,48,2331.78,0,Repaid,200000,42,780,18-04-2022,11.13,18-04-2026,0,No Flag,No specific action required.,0
+CUST10178,LN100215,165000,Debt Consolidation,36,5578.6,0,Repaid,643000,25,669,20-04-2022,13.24,20-04-2025,0,No Flag,No specific action required.,0
+CUST10601,LN100216,195000,Education,12,17192.61,0,Repaid,585000,42,734,21-04-2022,10.54,21-04-2023,0,No Flag,No specific action required.,0
+CUST10425,LN100217,240000,Home Improvement,48,6772.2,0,Repaid,711000,48,465,22-04-2022,15.76,22-04-2026,0,No Flag,No specific action required.,0
+CUST10526,LN100218,115000,Debt Consolidation,24,5349.23,0,Repaid,426000,40,793,24-04-2022,10.8,24-04-2024,0,No Flag,No specific action required.,0
+CUST10181,LN100219,270000,Medical,36,9616.83,8671.58,Default,444000,36,633,29-04-2022,16.93,29-06-2024,854,No Flag,No specific action required.,97351.97
+CUST10539,LN100220,295000,Medical,24,13779.46,0,Repaid,821000,59,603,02-05-2022,11.22,02-05-2024,0,No Flag,No specific action required.,0
+CUST10271,LN100221,125000,Education,24,5911.07,0,Repaid,575000,42,597,03-05-2022,12.46,03-05-2024,0,No Flag,No specific action required.,0
+CUST10669,LN100222,90000,Education,36,2868.26,0,Repaid,453000,40,789,03-05-2022,9.15,03-05-2025,0,No Flag,No specific action required.,0
+CUST10615,LN100223,85000,Home Improvement,24,4066.65,0,Repaid,270000,38,578,05-05-2022,13.64,05-05-2024,0,No Flag,No specific action required.,0
+CUST10592,LN100224,160000,Personal,24,7135.36,0,Repaid,784000,38,751,05-05-2022,6.61,05-05-2024,0,No Flag,No specific action required.,0
+CUST10704,LN100225,710000,Debt Consolidation,12,63461.91,0,Repaid,1121000,31,721,07-05-2022,13.14,07-05-2023,0,No Flag,No specific action required.,0
+CUST10144,LN100226,190000,Education,36,6300.74,0,Repaid,794000,52,675,08-05-2022,11.89,08-05-2025,0,No Flag,No specific action required.,0
+CUST10491,LN100227,170000,Personal,12,15207.08,0,Repaid,534000,34,594,11-05-2022,13.29,11-05-2023,0,No Flag,No specific action required.,0
+CUST10621,LN100390,135000,Home Improvement,12,11655.61,0,Repaid,708000,45,740,19-04-2023,6.59,19-04-2024,0,No Flag,No specific action required.,0
+CUST10529,LN100228,130000,Debt Consolidation,48,3285.29,0,Repaid,779000,39,731,13-05-2022,9.81,13-05-2026,0,No Flag,No specific action required.,0
+CUST10641,LN100229,295000,Home Improvement,48,7591.52,0,Repaid,815000,37,741,13-05-2022,10.77,13-05-2026,0,No Flag,No specific action required.,0
+CUST10193,LN100230,320000,Personal,48,8765.35,0,Repaid,752000,38,493,14-05-2022,14.13,14-05-2026,0,No Flag,No specific action required.,0
+CUST10282,LN100231,190000,Education,12,16685.47,0,Repaid,833000,26,687,21-05-2022,9.79,21-05-2023,0,No Flag,Missing Payment Due Date filled with 21-05-2023.,0
+CUST10602,LN100232,125000,Home Improvement,60,2696.04,0,Active,520000,21,642,21-05-2022,10.65,21-10-2026,0,No Flag,No specific action required.,18219.73
+CUST10351,LN100233,50000,Personal,24,2252.03,0,Repaid,234000,34,698,22-05-2022,7.59,22-05-2024,0,No Flag,No specific action required.,0
+CUST10454,LN100234,80000,Debt Consolidation,36,2736.93,0,Repaid,332000,24,572,24-05-2022,14.07,24-05-2025,0,No Flag,No specific action required.,0
+CUST10096,LN100235,540000,Personal,48,12741.42,46130.12,Default,1610000,48,850,24-05-2022,6.24,24-12-2024,676,No Flag,No specific action required.,218398.16
+CUST10706,LN100236,50000,Home Improvement,36,1702.33,0,Repaid,272000,46,638,26-05-2022,13.73,26-05-2025,0,No Flag,No specific action required.,0
+CUST10390,LN100237,150000,Home Improvement,36,5065.66,0,Repaid,252000,39,599,26-05-2022,13.16,26-05-2025,0,No Flag,No specific action required.,0
+CUST10420,LN100238,150000,Personal,60,3346.53,0,Active,351000,23,678,29-05-2022,12.13,29-10-2026,0,No Flag,No specific action required.,22506.54
+CUST10601,LN100240,270000,Debt Consolidation,60,6184.87,0,Active,585000,42,734,02-06-2022,13.3,02-10-2026,29,No Flag,No specific action required.,52700.47
+CUST10328,LN100241,90000,Home Improvement,36,2908.27,0,Repaid,508000,44,661,02-06-2022,10.1,02-06-2025,0,No Flag,No specific action required.,0
+CUST10649,LN100242,310000,Education,36,10284.6,0,Repaid,871000,43,636,06-06-2022,11.92,06-06-2025,0,No Flag,Credit Score corrected to 636 using customer records.,0
+CUST10415,LN100243,130000,Education,36,4229,0,Repaid,720000,33,624,08-06-2022,10.56,08-06-2025,0,No Flag,No specific action required.,0
+CUST10582,LN100244,65000,Personal,24,2988.63,0,Repaid,596000,42,653,15-06-2022,9.64,15-06-2024,0,No Flag,No specific action required.,0
+CUST10660,LN100245,170000,Home Improvement,12,15103.5,0,Repaid,1789000,36,539,19-06-2022,11.99,19-06-2023,0,No Flag,No specific action required.,0
+CUST10264,LN100246,160000,Personal,36,5486.31,0,Repaid,306000,51,651,19-06-2022,14.23,19-06-2025,0,No Flag,No specific action required.,0
+CUST10463,LN100247,120000,Personal,36,4015.01,0,Repaid,842000,40,569,27-06-2022,12.51,27-06-2025,0,No Flag,No specific action required.,0
+CUST10120,LN100248,90000,Personal,24,4210.18,5348.12,Default,754000,41,680,28-06-2022,11.37,28-04-2024,916,No Flag,No specific action required.,12394.93
+CUST10483,LN100249,415000,Medical,48,11090.2,0,Repaid,1600000,53,686,28-06-2022,12.79,28-06-2026,0,No Flag,No specific action required.,0
+CUST10173,LN100250,265000,Education,24,11953.83,0,Repaid,1286000,45,750,28-06-2022,7.74,28-06-2024,0,No Flag,No specific action required.,0
+CUST10172,LN100251,260000,Home Improvement,24,11671.54,0,Repaid,522000,56,807,29-06-2022,7.26,29-06-2024,0,No Flag,No specific action required.,0
+CUST10266,LN100252,90000,Debt Consolidation,60,2216.94,0,Active,372000,32,550,30-06-2022,16.59,30-10-2026,1,No Flag,No specific action required.,18640.35
+CUST10432,LN100253,50000,Home Improvement,36,1627.24,0,Repaid,200000,28,559,02-07-2022,10.59,02-07-2025,0,No Flag,No specific action required.,0
+CUST10432,LN100254,110000,Home Improvement,12,9917.52,0,Repaid,200000,28,559,06-07-2022,14.79,06-07-2023,0,No Flag,Missing Loan Date filled with 06-07-2022.,0
+CUST10100,LN100255,60000,Home Improvement,36,2038.44,0,Repaid,506000,35,633,07-07-2022,13.58,07-07-2025,0,No Flag,No specific action required.,0
+CUST10530,LN100256,245000,Medical,60,5076.29,0,Active,967000,48,711,10-07-2022,8.92,10-10-2026,0,No Flag,No specific action required.,44033.86
+CUST10352,LN100257,300000,Medical,36,11120.05,0,Repaid,853000,46,442,11-07-2022,19.81,11-07-2025,0,No Flag,No specific action required.,0
+CUST10643,LN100258,290000,Debt Consolidation,36,9652.94,0,Repaid,478000,27,764,15-07-2022,12.15,15-07-2025,0,No Flag,No specific action required.,0
+CUST10284,LN100259,190000,Personal,36,6393.62,0,Repaid,684000,45,612,17-07-2022,12.91,17-07-2025,0,No Flag,No specific action required.,0
+CUST10476,LN100260,135000,Education,24,6333.5,6831.35,Default,548000,46,589,18-07-2022,11.66,18-02-2024,986,No Flag,No specific action required.,36741.45
+CUST10591,LN100261,395000,Personal,12,35378.62,0,Repaid,1132000,31,672,18-07-2022,13.53,18-07-2023,0,No Flag,No specific action required.,0
+CUST10690,LN100262,125000,Personal,12,11048.87,0,Repaid,233000,36,697,23-07-2022,11.02,23-07-2023,0,No Flag,No specific action required.,0
+CUST10484,LN100263,70000,Home Improvement,48,1676.24,0,Repaid,672000,28,718,25-07-2022,7,25-07-2026,0,No Flag,No specific action required.,0
+CUST10092,LN100264,95000,Debt Consolidation,60,2211.47,0,Active,200000,24,570,26-07-2022,14.02,26-10-2026,0,No Flag,No specific action required.,18788.65
+CUST10402,LN100265,1000000,Debt Consolidation,12,90423.55,0,Repaid,1048000,32,678,29-07-2022,15.35,29-07-2023,0,No Flag,No specific action required.,0
+CUST10327,LN100266,200000,Home Improvement,24,9388.56,0,Repaid,479000,43,564,29-07-2022,11.72,29-07-2024,0,No Flag,No specific action required.,0
+CUST10475,LN100267,100000,Education,36,3410,0,Repaid,614000,45,577,30-07-2022,13.84,30-07-2025,0,No Flag,No specific action required.,0
+CUST10551,LN100268,110000,Medical,48,2955.94,0,Default,487000,39,668,03-08-2022,13.09,03-02-2024,1001,No Flag,No specific action required.,77394.8
+CUST10228,LN100269,190000,Debt Consolidation,24,9189.91,0,Repaid,360000,34,693,07-08-2022,14.75,07-08-2024,0,No Flag,No specific action required.,0
+CUST10180,LN100270,225000,Home Improvement,60,4836.13,101035.91,Default,418000,31,646,08-08-2022,10.5,08-07-2023,1211,No Flag,No specific action required.,195170.44
+CUST10292,LN100271,75000,Home Improvement,60,1732.31,0,Active,553000,36,479,11-08-2022,13.67,11-10-2026,20,No Flag,No specific action required.,17814.83
+CUST10496,LN100272,195000,Home Improvement,24,9299.99,0,Repaid,317000,40,680,15-08-2022,13.32,15-08-2024,0,No Flag,No specific action required.,0
+CUST10531,LN100273,120000,Medical,12,10943.43,0,Repaid,464000,21,607,16-08-2022,16.98,16-08-2023,0,No Flag,No specific action required.,0
+CUST10496,LN100274,50000,Home Improvement,24,2307.94,0,Repaid,317000,40,680,17-08-2022,10.03,17-08-2024,0,No Flag,No specific action required.,0
+CUST10429,LN100275,135000,Debt Consolidation,24,6306.48,0,Repaid,1168000,51,776,17-08-2022,11.23,17-08-2024,0,No Flag,No specific action required.,0
+CUST10003,LN100276,1000000,Debt Consolidation,36,35932.05,0,Repaid,931000,44,681,18-08-2022,17.56,18-08-2025,0,No Flag,No specific action required.,0
+CUST10058,LN100277,160000,Personal,48,3757.6,0,Repaid,799000,36,769,18-08-2022,6,18-08-2026,0,No Flag,No specific action required.,0
+CUST10716,LN100278,240000,Home Improvement,24,11169.17,0,Repaid,1078000,51,790,20-08-2022,10.85,20-08-2024,0,No Flag,No specific action required.,0
+CUST10204,LN100279,100000,Education,48,2558.89,0,Repaid,702000,27,567,25-08-2022,10.47,25-08-2026,0,No Flag,No specific action required.,0
+CUST10113,LN100281,995000,Home Improvement,24,51109.18,0,Repaid,663000,47,584,27-08-2022,20.96,27-08-2024,0,No Flag,No specific action required.,0
+CUST10449,LN100282,225000,Debt Consolidation,24,10438.78,0,Repaid,639000,39,783,28-08-2022,10.54,28-08-2024,0,No Flag,No specific action required.,0
+CUST10345,LN100283,85000,Home Improvement,48,2343.27,0,Repaid,301000,22,610,28-08-2022,14.48,28-08-2026,0,No Flag,No specific action required.,0
+CUST10247,LN100284,150000,Personal,48,3818.81,0,Repaid,546000,22,722,03-09-2022,10.2,03-09-2026,0,No Flag,No specific action required.,0
+CUST10268,LN100285,125000,Debt Consolidation,36,4190.1,0,Repaid,463000,26,642,04-09-2022,12.64,04-09-2025,0,No Flag,No specific action required.,0
+CUST10368,LN100286,90000,Personal,60,2383.45,0,Active,240000,53,452,04-09-2022,19.98,04-10-2026,0,No Flag,No specific action required.,23777.25
+CUST10188,LN100287,410000,Education,24,19342.27,0,Repaid,2000000,35,602,09-09-2022,12.22,09-09-2024,0,No Flag,No specific action required.,0
+CUST10269,LN100288,115000,Education,36,3673.58,0,Repaid,562000,21,744,12-09-2022,9.31,12-09-2025,0,No Flag,No specific action required.,0
+CUST10294,LN100289,620000,Debt Consolidation,36,21295.68,0,Default,1720000,46,630,12-09-2022,14.35,12-06-2025,506,No Flag,No specific action required.,82695.76
+CUST10656,LN100290,150000,Personal,36,4607.6,0,Repaid,774000,26,835,13-09-2022,6.65,13-09-2025,0,No Flag,No specific action required.,0
+CUST10124,LN100291,95000,Personal,24,4474.2,0,Repaid,466000,25,597,14-09-2022,12.05,14-09-2024,0,No Flag,No specific action required.,0
+CUST10181,LN100292,85000,Personal,60,1909.3,0,Active,444000,36,633,15-09-2022,12.43,15-10-2026,0,No Flag,No specific action required.,19753.53
+CUST10698,LN100293,270000,Education,24,12678.34,0,Repaid,763000,44,688,17-09-2022,11.75,17-09-2024,0,No Flag,No specific action required.,0
+CUST10622,LN100294,120000,Personal,60,2541.39,0,Active,590000,30,701,18-09-2022,9.86,18-10-2026,0,No Flag,No specific action required.,26624.76
+CUST10102,LN100295,105000,Home Improvement,12,9264.9,0,Repaid,592000,41,691,19-09-2022,10.69,19-09-2023,0,No Flag,No specific action required.,0
+CUST10516,LN100296,210000,Personal,48,5741.72,0,Repaid,513000,40,653,20-09-2022,14.03,20-09-2026,0,No Flag,No specific action required.,0
+CUST10700,LN100297,355000,Personal,36,12337.51,0,Repaid,1188000,21,587,21-09-2022,15.18,21-09-2025,0,No Flag,No specific action required.,0
+CUST10255,LN100298,390000,Debt Consolidation,24,17899.47,0,Repaid,2000000,60,748,21-09-2022,9.46,21-09-2024,0,No Flag,No specific action required.,0
+CUST10391,LN100299,260000,Education,60,5389.6,0,Active,689000,35,742,21-09-2022,8.94,21-10-2026,0,No Flag,No specific action required.,56718.95
+CUST10555,LN100300,845000,Medical,12,74505.25,0,Repaid,2000000,55,713,22-09-2022,10.55,22-09-2023,0,No Flag,No specific action required.,0
+CUST10241,LN100301,80000,Personal,12,7020.26,0,Repaid,274000,36,654,22-09-2022,9.65,22-09-2023,0,No Flag,No specific action required.,0
+CUST10040,LN100302,215000,Medical,12,19466.46,0,Repaid,1103000,43,577,24-09-2022,15.6,24-09-2023,0,No Flag,No specific action required.,0
+CUST10312,LN100303,95000,Medical,24,4306.13,0,Repaid,562000,53,801,25-09-2022,8.22,25-09-2024,0,No Flag,No specific action required.,0
+CUST10094,LN100304,160000,Home Improvement,36,5384.1,112936.4,Default,360000,33,726,26-09-2022,12.91,26-02-2023,1343,No Flag,No specific action required.,145110.81
+CUST10582,LN100305,195000,Medical,60,4464.85,0,Active,596000,42,653,28-09-2022,13.28,28-10-2026,0,No Flag,No specific action required.,46002.75
+CUST10302,LN100306,525000,Personal,48,14380.66,0,Repaid,1967000,49,685,30-09-2022,14.13,30-09-2026,0,No Flag,No specific action required.,0
+CUST10708,LN100307,405000,Home Improvement,36,13948.4,0,Repaid,999000,27,592,01-10-2022,14.54,01-10-2025,0,No Flag,No specific action required.,0
+CUST10505,LN100308,970000,Education,36,32231.78,0,Repaid,1773000,44,789,11-10-2022,12.03,11-10-2025,0,No Flag,No specific action required.,0
+CUST10344,LN100309,125000,Medical,60,2709.08,0,Active,743000,27,705,15-10-2022,10.86,15-10-2026,0,No Flag,No specific action required.,30674.76
+CUST10150,LN100310,100000,Home Improvement,48,2613.3,0,Repaid,485000,22,618,17-10-2022,11.59,17-10-2026,0,No Flag,No specific action required.,0
+CUST10102,LN100311,300000,Personal,48,8166.38,76905.36,Default,592000,41,691,21-10-2022,13.79,21-09-2024,770,No Flag,No specific action required.,182643.84
+CUST10099,LN100312,80000,Medical,36,2947.47,37675.61,Default,205000,35,411,26-10-2022,19.37,26-03-2023,1315,No Flag,No specific action required.,73213.33
+CUST10720,LN100313,130000,Personal,36,4027.11,0,Repaid,725000,36,762,31-10-2022,7.22,31-10-2025,0,No Flag,No specific action required.,0
+CUST10650,LN100314,95000,Education,36,2913.82,0,Repaid,797000,59,790,05-11-2022,6.55,05-11-2025,0,No Flag,No specific action required.,0
+CUST10321,LN100315,460000,Home Improvement,24,22159.88,0,Default,947000,26,617,06-11-2022,14.34,06-03-2024,969,No Flag,No specific action required.,188026.46
+CUST10044,LN100316,305000,Home Improvement,48,8440.53,0,Active,387000,37,628,10-11-2022,14.69,10-10-2026,21,No Flag,No specific action required.,16576.06
+CUST10412,LN100317,140000,Debt Consolidation,36,4562.23,0,Repaid,721000,26,721,16-11-2022,10.68,16-11-2025,0,No Flag,No specific action required.,0
+CUST10075,LN100318,360000,Home Improvement,24,16401.95,0,Repaid,2000000,21,723,17-11-2022,8.73,17-11-2024,0,No Flag,No specific action required.,0
+CUST10213,LN100319,860000,Home Improvement,24,41678.09,21652.32,Default,1004000,42,717,18-11-2022,14.95,18-11-2024,712,No Flag,No specific action required.,41165.24
+CUST10212,LN100320,600000,Personal,48,16159.1,0,Active,2000000,32,710,19-11-2022,13.21,19-10-2026,0,No Flag,No specific action required.,15983.16
+CUST10183,LN100321,65000,Personal,48,1839.46,0,Active,314000,40,542,21-11-2022,15.92,21-10-2026,0,No Flag,No specific action required.,1815.37
+CUST10366,LN100322,135000,Home Improvement,48,3442.78,0,Active,714000,50,641,30-11-2022,10.29,30-09-2026,31,No Flag,No specific action required.,10153.71
+CUST10455,LN100323,160000,Home Improvement,48,3960.37,0,Active,1190000,41,697,30-11-2022,8.72,30-10-2026,0,No Flag,No specific action required.,3931.8
+CUST10145,LN100324,270000,Medical,36,9839.88,0,Repaid,1041000,37,539,01-12-2022,18.58,01-12-2025,0,No Flag,No specific action required.,0
+CUST10719,LN100325,250000,Personal,48,5871.26,0,Active,1139000,33,828,03-12-2022,6,03-10-2026,0,No Flag,No specific action required.,11655.03
+CUST10021,LN100326,1000000,Medical,24,50598.3,346440.65,Default,1138000,38,568,03-12-2022,19.39,03-07-2023,1216,No Flag,No specific action required.,784830.77
+CUST10310,LN100327,110000,Debt Consolidation,48,2974.01,0,Active,889000,22,619,05-12-2022,13.42,05-10-2026,0,No Flag,No specific action required.,5849.7
+CUST10719,LN100328,205000,Debt Consolidation,48,4814.43,0,Active,1139000,33,828,06-12-2022,6,06-10-2026,0,No Flag,No specific action required.,9557.12
+CUST10351,LN100329,50000,Personal,36,1613.12,0,Repaid,234000,34,698,12-12-2022,9.99,12-12-2025,0,No Flag,No specific action required.,0
+CUST10477,LN100330,190000,Home Improvement,36,6389.96,0,Repaid,646000,43,631,12-12-2022,12.87,12-12-2025,0,No Flag,No specific action required.,0
+CUST10511,LN100331,105000,Debt Consolidation,48,2794.01,0,Active,454000,44,696,17-12-2022,12.56,17-10-2026,0,No Flag,No specific action required.,5501.5
+CUST10354,LN100332,150000,Home Improvement,36,5332.25,0,Repaid,411000,40,486,19-12-2022,16.79,19-12-2025,0,No Flag,No specific action required.,0
+CUST10558,LN100458,565000,Home Improvement,48,14679.67,0,Active,1838000,49,659,25-10-2023,11.28,25-08-2026,67,No Flag,No specific action required.,204482.33
+CUST10039,LN100333,135000,Personal,12,11841.04,0,Repaid,892000,43,696,20-12-2022,9.56,20-12-2023,0,No Flag,No specific action required.,0
+CUST10401,LN100334,150000,Medical,24,7260.18,0,Default,579000,45,522,21-12-2022,14.82,21-06-2024,862,No Flag,No specific action required.,48400.88
+CUST10009,LN100335,210000,Medical,24,9810.09,0,Repaid,834000,44,709,22-12-2022,11.23,22-12-2024,0,No Flag,No specific action required.,0
+CUST10665,LN100336,830000,Personal,36,28013.98,53882.92,Default,708000,51,746,29-12-2022,13.12,29-05-2025,520,No Flag,No specific action required.,213475.6
+CUST10642,LN100337,180000,Personal,36,6086.61,0,Repaid,949000,45,562,03-01-2023,13.25,03-01-2026,0,No Flag,No specific action required.,0
+CUST10359,LN100338,155000,Debt Consolidation,24,7525.01,0,Repaid,547000,35,547,03-01-2023,15.13,03-01-2025,0,No Flag,No specific action required.,0
+CUST10355,LN100339,430000,Personal,60,9077.1,0,Active,2000000,33,659,07-01-2023,9.72,07-10-2026,0,No Flag,"Credit Score checked; missing or zero value replaced with median (659), where applicable.",127724.22
+CUST10132,LN100340,100000,Personal,36,3226.72,0,Repaid,548000,40,781,09-01-2023,10,09-01-2026,0,No Flag,No specific action required.,0
+CUST10222,LN100341,50000,Home Improvement,36,1667.89,0,Repaid,422000,37,553,13-01-2023,12.3,13-01-2026,0,No Flag,No specific action required.,0
+CUST10571,LN100342,130000,Personal,36,4455.1,0,Default,484000,21,645,15-01-2023,14.19,15-03-2025,595,No Flag,No specific action required.,45700.14
+CUST10488,LN100343,260000,Personal,36,8749.16,0,Repaid,533000,44,694,18-01-2023,12.91,18-01-2026,0,No Flag,No specific action required.,0
+CUST10674,LN100344,675000,Debt Consolidation,24,32918.02,61927.08,Default,1534000,32,578,18-01-2023,15.59,18-11-2024,712,No Flag,No specific action required.,96242.59
+CUST10669,LN100345,55000,Personal,36,1747.96,0,Repaid,453000,40,789,22-01-2023,8.96,22-01-2026,0,No Flag,No specific action required.,0
+CUST10021,LN100346,295000,Debt Consolidation,24,14304.96,0,Repaid,1138000,38,568,22-01-2023,15.01,22-01-2025,0,No Flag,No specific action required.,0
+CUST10718,LN100347,460000,Debt Consolidation,12,41237.17,0,Repaid,738000,46,700,24-01-2023,13.7,24-01-2024,0,No Flag,No specific action required.,0
+CUST10121,LN100348,225000,Home Improvement,60,4980.02,0,Active,1299000,34,586,27-01-2023,11.78,27-10-2026,0,No Flag,No specific action required.,69146.32
+CUST10299,LN100349,50000,Debt Consolidation,12,4475.02,0,Repaid,394000,28,580,29-01-2023,13.39,29-01-2024,0,No Flag,No specific action required.,0
+CUST10576,LN100350,125000,Debt Consolidation,12,10934.33,0,Repaid,849000,45,751,31-01-2023,9.05,31-01-2024,0,No Flag,No specific action required.,0
+CUST10570,LN100351,575000,Education,24,25694.73,0,Repaid,2000000,41,850,01-02-2023,6.81,01-02-2025,0,No Flag,No specific action required.,0
+CUST10524,LN100352,290000,Debt Consolidation,24,13247.24,0,Repaid,1058000,46,721,03-02-2023,8.99,03-02-2025,0,No Flag,No specific action required.,0
+CUST10489,LN100353,300000,Education,12,26774.07,0,Repaid,740000,30,514,07-02-2023,12.85,07-02-2024,0,No Flag,No specific action required.,0
+CUST10167,LN100354,55000,Medical,36,1889.94,0,Repaid,347000,35,679,08-02-2023,14.38,08-02-2026,0,No Flag,No specific action required.,0
+CUST10391,LN100355,75000,Personal,48,1857.49,13363.42,Default,689000,35,742,10-02-2023,8.75,10-08-2023,1178,No Flag,No specific action required.,68350.67
+CUST10216,LN100356,145000,Personal,60,3146.87,0,Active,664000,23,738,13-02-2023,10.92,13-10-2026,0,No Flag,No specific action required.,46659.12
+CUST10019,LN100358,75000,Debt Consolidation,60,1757.59,0,Active,677000,43,616,20-02-2023,14.32,20-10-2026,0,No Flag,No specific action required.,25462.12
+CUST10552,LN100360,130000,Home Improvement,12,11416.37,0,Repaid,852000,56,767,21-02-2023,9.79,21-02-2024,0,No Flag,No specific action required.,0
+CUST10265,LN100361,150000,Home Improvement,48,3852.83,0,Active,597000,53,724,21-02-2023,10.67,21-10-2026,0,No Flag,No specific action required.,15074.75
+CUST10151,LN100362,170000,Personal,12,14988.43,0,Repaid,989000,39,654,22-02-2023,10.54,22-02-2024,0,No Flag,No specific action required.,0
+CUST10106,LN100363,300000,Home Improvement,48,7934.07,0,Active,706000,30,571,23-02-2023,12.23,23-10-2026,0,No Flag,No specific action required.,30943.86
+CUST10276,LN100364,385000,Debt Consolidation,48,11948.73,0,Active,543000,34,556,26-02-2023,21.13,26-10-2026,0,No Flag,No specific action required.,45762.82
+CUST10242,LN100365,205000,Education,36,6236.5,0,Repaid,714000,65,821,27-02-2023,6,27-02-2026,0,No Flag,No specific action required.,0
+CUST10608,LN100366,100000,Education,60,2323.72,0,Active,310000,37,590,27-02-2023,13.94,27-10-2026,0,No Flag,No specific action required.,33750.68
+CUST10629,LN100367,460000,Medical,24,22157.71,0,Repaid,930000,49,647,04-03-2023,14.33,04-03-2025,0,No Flag,No specific action required.,0
+CUST10360,LN100368,165000,Personal,48,4152.41,0,Active,416000,59,710,05-03-2023,9.59,05-10-2026,0,No Flag,No specific action required.,20273.43
+CUST10285,LN100369,130000,Home Improvement,36,4390.24,0,Repaid,727000,21,672,09-03-2023,13.16,09-03-2026,0,No Flag,No specific action required.,0
+CUST10134,LN100370,305000,Home Improvement,24,15327.25,0,Repaid,784000,23,473,09-03-2023,18.68,09-03-2025,0,No Flag,No specific action required.,0
+CUST10365,LN100371,50000,Home Improvement,36,1644.76,0,Repaid,368000,28,600,10-03-2023,11.33,10-03-2026,0,No Flag,No specific action required.,0
+CUST10492,LN100372,410000,Debt Consolidation,12,36695.14,0,Repaid,508000,30,659,11-03-2023,13.39,11-03-2024,0,No Flag,No specific action required.,0
+CUST10225,LN100373,185000,Home Improvement,60,4117.09,0,Active,1164000,34,610,15-03-2023,12.02,15-10-2026,0,No Flag,No specific action required.,64061.97
+CUST10512,LN100374,355000,Medical,12,31426.84,0,Repaid,878000,32,620,15-03-2023,11.31,15-03-2024,0,No Flag,No specific action required.,0
+CUST10607,LN100375,320000,Medical,24,15588.8,0,Repaid,623000,34,618,18-03-2023,15.48,18-03-2025,0,No Flag,No specific action required.,0
+CUST10048,LN100376,285000,Debt Consolidation,24,13851.21,0,Repaid,933000,51,630,21-03-2023,15.24,21-03-2025,0,No Flag,No specific action required.,0
+CUST10298,LN100377,135000,Medical,12,12207.82,0,Repaid,386000,37,554,21-03-2023,15.36,21-03-2024,0,No Flag,No specific action required.,0
+CUST10023,LN100378,295000,Debt Consolidation,24,13745.2,0,Repaid,931000,47,723,24-03-2023,10.97,24-03-2025,0,No Flag,No specific action required.,0
+CUST10024,LN100379,85000,Personal,12,7645.91,0,Repaid,598000,39,525,24-03-2023,14.35,24-03-2024,0,No Flag,No specific action required.,0
+CUST10517,LN100380,135000,Medical,60,2907.03,0,Active,1429000,47,684,24-03-2023,10.58,24-10-2026,0,No Flag,No specific action required.,45707.73
+CUST10664,LN100381,160000,Education,12,13967.76,31006.81,Default,681000,54,660,25-03-2023,8.67,25-06-2023,1224,No Flag,No specific action required.,134283.91
+CUST10139,LN100382,450000,Home Improvement,12,39767.55,0,Repaid,1348000,28,648,25-03-2023,10.98,25-03-2024,0,No Flag,No specific action required.,0
+CUST10258,LN100383,195000,Education,24,9119.34,0,Repaid,1092000,27,767,29-03-2023,11.34,29-03-2025,0,No Flag,No specific action required.,0
+CUST10248,LN100384,215000,Personal,24,10522.96,0,Repaid,459000,30,542,30-03-2023,15.96,30-03-2025,0,No Flag,No specific action required.,0
+CUST10129,LN100385,110000,Education,36,3610.12,0,Repaid,581000,25,590,31-03-2023,11.17,31-03-2026,0,No Flag,No specific action required.,0
+CUST10536,LN100386,175000,Personal,36,5988.74,0,Repaid,645000,59,637,01-04-2023,14.09,01-04-2026,0,No Flag,No specific action required.,0
+CUST10680,LN100387,115000,Personal,12,10182.67,0,Repaid,369000,49,706,03-04-2023,11.35,03-04-2024,0,No Flag,No specific action required.,0
+CUST10573,LN100388,85000,Home Improvement,24,3971.14,0,Repaid,380000,47,598,17-04-2023,11.24,17-04-2025,0,No Flag,No specific action required.,0
+CUST10371,LN100389,355000,Personal,24,16253.94,0,Repaid,904000,28,749,18-04-2023,9.22,18-04-2025,0,No Flag,No specific action required.,0
+CUST10254,LN100391,155000,Home Improvement,24,7099.64,0,Repaid,549000,24,705,24-04-2023,9.26,24-04-2025,0,No Flag,No specific action required.,0
+CUST10320,LN100392,530000,Personal,48,15931.09,0,Active,379000,30,674,29-04-2023,19.3,29-10-2026,0,No Flag,No specific action required.,90428.48
+CUST10318,LN100393,285000,Home Improvement,24,13568.17,0,Repaid,836000,41,669,29-04-2023,13.14,29-04-2025,0,No Flag,No specific action required.,0
+CUST10713,LN100394,335000,Debt Consolidation,48,8622.5,67970.4,Default,1367000,42,706,30-04-2023,10.78,30-07-2024,823,No Flag,No specific action required.,251659.16
+CUST10551,LN100395,340000,Personal,12,30708.69,0,Repaid,487000,39,668,10-05-2023,15.13,10-05-2024,0,No Flag,No specific action required.,0
+CUST10469,LN100396,135000,Debt Consolidation,48,3597.64,0,Active,690000,33,532,11-05-2023,12.64,11-10-2026,0,No Flag,No specific action required.,24155.06
+CUST10627,LN100397,360000,Personal,36,13119.85,21710.62,Default,725000,32,467,13-05-2023,18.58,13-03-2026,232,No Flag,No specific action required.,38171.44
+CUST10226,LN100398,50000,Debt Consolidation,60,1048.38,0,Active,405000,26,693,16-05-2023,9.43,16-10-2026,0,No Flag,No specific action required.,18436.48
+CUST10568,LN100399,115000,Debt Consolidation,36,3964.02,0,Repaid,390000,41,596,20-05-2023,14.6,20-05-2026,0,No Flag,No specific action required.,0
+CUST10025,LN100400,50000,Personal,24,2367,0,Repaid,585000,40,728,21-05-2023,12.57,21-05-2025,0,No Flag,No specific action required.,0
+CUST10499,LN100401,260000,Personal,36,8749.16,0,Repaid,495000,34,642,27-05-2023,12.91,27-05-2026,0,No Flag,No specific action required.,0
+CUST10075,LN100402,320000,Debt Consolidation,36,10627.05,0,Repaid,2000000,21,723,27-05-2023,11.99,27-05-2026,0,No Flag,No specific action required.,0
+CUST10419,LN100403,430000,Personal,12,38568.01,0,Repaid,1429000,30,636,28-05-2023,13.8,28-05-2024,0,No Flag,No specific action required.,0
+CUST10568,LN100404,130000,Home Improvement,24,6024.07,0,Repaid,390000,41,596,31-05-2023,10.42,31-05-2025,0,No Flag,No specific action required.,0
+CUST10149,LN100405,50000,Personal,36,1613.59,0,Repaid,346000,21,680,31-05-2023,10.01,31-05-2026,0,No Flag,No specific action required.,0
+CUST10490,LN100406,65000,Home Improvement,60,1528.32,0,Default,365000,30,579,01-06-2023,14.47,01-01-2025,668,No Flag,No specific action required.,50132.4
+CUST10502,LN100407,130000,Debt Consolidation,60,2954.57,0,Active,663000,40,693,01-06-2023,12.95,01-10-2026,0,No Flag,No specific action required.,52894.31
+CUST10470,LN100408,810000,Education,48,22162.9,0,Active,922000,32,790,01-06-2023,14.07,01-10-2026,0,No Flag,No specific action required.,168302.39
+CUST10353,LN100409,990000,Home Improvement,36,34018.86,0,Repaid,1071000,51,632,02-06-2023,14.38,02-06-2026,0,No Flag,No specific action required.,0
+CUST10078,LN100410,625000,Education,48,17201.57,0,Active,1228000,52,634,06-06-2023,14.39,06-08-2026,86,No Flag,No specific action required.,176281.89
+CUST10569,LN100411,50000,Debt Consolidation,48,1370.59,18179.09,Default,200000,34,687,06-06-2023,14.17,06-07-2025,482,No Flag,No specific action required.,28498.64
+CUST10411,LN100412,60000,Debt Consolidation,48,1524.64,0,Active,876000,34,731,08-06-2023,10.1,08-10-2026,0,No Flag,No specific action required.,11747.81
+CUST10276,LN100413,230000,Personal,60,5661.82,0,Active,543000,34,556,16-06-2023,16.56,16-10-2026,0,No Flag,No specific action required.,98365.4
+CUST10442,LN100414,135000,Medical,24,6343.58,0,Repaid,577000,41,600,25-06-2023,11.82,25-06-2025,0,No Flag,No specific action required.,0
+CUST10609,LN100415,75000,Personal,60,1672.13,0,Active,403000,21,680,28-06-2023,12.1,28-10-2026,0,No Flag,No specific action required.,30149.14
+CUST10503,LN100416,400000,Personal,48,10461.01,0,Active,821000,42,845,07-07-2023,11.63,07-10-2026,0,No Flag,No specific action required.,89744.35
+CUST10190,LN100417,180000,Home Improvement,36,6099.65,0,Repaid,640000,47,551,07-07-2023,13.4,07-07-2026,0,No Flag,No specific action required.,0
+CUST10566,LN100418,190000,Debt Consolidation,36,6455.98,0,Repaid,406000,21,687,09-07-2023,13.59,09-07-2026,0,No Flag,No specific action required.,0
+CUST10461,LN100419,460000,Home Improvement,12,40006.17,0,Repaid,1477000,42,664,11-07-2023,7.96,11-07-2024,0,No Flag,No specific action required.,0
+CUST10599,LN100420,495000,Home Improvement,48,14556.15,0,Active,798000,39,626,16-07-2023,18.06,16-10-2026,0,No Flag,No specific action required.,121667.56
+CUST10186,LN100421,50000,Home Improvement,36,1606.79,0,Repaid,231000,35,695,22-07-2023,9.72,22-07-2026,0,No Flag,No specific action required.,0
+CUST10395,LN100422,1000000,Personal,12,89829.47,0,Repaid,1236000,46,655,22-07-2023,14.09,22-07-2024,0,No Flag,No specific action required.,0
+CUST10060,LN100423,50000,Debt Consolidation,12,4416.98,0,Repaid,934000,44,592,30-07-2023,10.91,30-07-2024,0,No Flag,No specific action required.,0
+CUST10574,LN100424,175000,Personal,36,5600.86,0,Repaid,686000,26,651,02-08-2023,9.44,02-08-2026,0,No Flag,Repaid loan has Outstanding Balance set to 0.,0
+CUST10365,LN100425,70000,Debt Consolidation,36,2308.99,0,Repaid,368000,28,600,02-08-2023,11.52,02-08-2026,0,No Flag,No specific action required.,0
+CUST10418,LN100426,185000,Home Improvement,24,8783.94,0,Repaid,814000,57,577,03-08-2023,12.87,03-08-2025,0,No Flag,No specific action required.,0
+CUST10103,LN100427,120000,Home Improvement,60,2633.09,0,Active,200000,42,780,04-08-2023,11.4,04-10-2026,0,No Flag,No specific action required.,52053.17
+CUST10539,LN100428,105000,Education,24,4924.59,0,Repaid,821000,59,603,06-08-2023,11.63,06-08-2025,0,No Flag,No specific action required.,0
+CUST10462,LN100429,105000,Personal,36,3420.19,0,Repaid,408000,49,682,06-08-2023,10.65,06-08-2026,0,No Flag,No specific action required.,0
+CUST10588,LN100430,265000,Debt Consolidation,60,5988.95,0,Active,690000,31,678,07-08-2023,12.7,07-10-2026,0,No Flag,No specific action required.,116993.52
+CUST10090,LN100431,55000,Home Improvement,48,1352.8,0,Active,440000,21,749,12-08-2023,8.39,12-10-2026,0,No Flag,No specific action required.,13022.04
+CUST10053,LN100432,855000,Personal,24,41830.78,0,Repaid,1090000,43,513,16-08-2023,15.92,16-08-2025,0,No Flag,No specific action required.,0
+CUST10330,LN100433,135000,Education,12,11779.67,0,Repaid,565000,43,763,21-08-2023,8.58,21-08-2024,0,No Flag,No specific action required.,0
+CUST10410,LN100434,200000,Home Improvement,24,9597.85,100886.94,Default,635000,39,538,24-08-2023,13.95,24-01-2024,1011,No Flag,No specific action required.,170397.36
+CUST10168,LN100435,90000,Home Improvement,36,3047.22,0,Repaid,575000,39,605,01-09-2023,13.34,01-09-2026,0,No Flag,No specific action required.,0
+CUST10136,LN100436,215000,Personal,60,4156.55,0,Active,743000,48,850,05-09-2023,6,05-10-2026,0,No Flag,No specific action required.,90096.1
+CUST10325,LN100437,50000,Education,24,2284.24,0,Repaid,200000,30,644,11-09-2023,9,11-09-2025,0,No Flag,No specific action required.,0
+CUST10125,LN100438,170000,Medical,36,5651.31,0,Repaid,705000,49,631,15-09-2023,12.06,15-09-2026,0,No Flag,No specific action required.,0
+CUST10071,LN100439,130000,Home Improvement,12,11465.98,0,Repaid,411000,38,666,15-09-2023,10.61,15-09-2024,0,No Flag,No specific action required.,0
+CUST10257,LN100440,110000,Debt Consolidation,60,2651.08,6552.11,Default,386000,43,592,16-09-2023,15.59,16-06-2026,137,No Flag,No specific action required.,61894.82
+CUST10206,LN100441,195000,Personal,36,6667.48,14693.21,Default,423000,46,624,16-09-2023,14.03,16-09-2024,775,No Flag,No specific action required.,143813.63
+CUST10308,LN100442,115000,Debt Consolidation,48,3138.51,0,Active,415000,43,578,18-09-2023,13.93,18-10-2026,0,No Flag,No specific action required.,32235.23
+CUST10095,LN100443,815000,Personal,24,40849.78,0,Repaid,1045000,37,638,20-09-2023,18.41,20-09-2025,0,No Flag,No specific action required.,0
+CUST10215,LN100444,135000,Home Improvement,36,4352.9,27483.13,Default,670000,21,715,20-09-2023,9.95,20-01-2025,649,No Flag,No specific action required.,83578.19
+CUST10239,LN100445,55000,Medical,24,2623.59,0,Repaid,1101000,46,600,21-09-2023,13.34,21-09-2025,0,No Flag,No specific action required.,0
+CUST10221,LN100446,115000,Debt Consolidation,36,3735.07,0,Repaid,444000,55,767,22-09-2023,10.45,22-09-2026,0,No Flag,No specific action required.,0
+CUST10189,LN100447,90000,Debt Consolidation,60,2088.55,0,Active,603000,36,599,26-09-2023,13.88,26-10-2026,0,No Flag,No specific action required.,41966.33
+CUST10138,LN100448,50000,Personal,60,1089.12,0,Active,200000,26,689,28-09-2023,11.08,28-10-2026,0,No Flag,No specific action required.,22475.54
+CUST10574,LN100449,495000,Debt Consolidation,24,24198.91,127817.7,Default,686000,26,651,29-09-2023,15.84,29-07-2024,824,No Flag,No specific action required.,327357.67
+CUST10204,LN100450,190000,Personal,24,9108.99,0,Repaid,702000,27,567,02-10-2023,13.85,02-10-2025,0,No Flag,No specific action required.,0
+CUST10322,LN100451,80000,Personal,24,3657.72,0,Repaid,515000,33,850,05-10-2023,9.08,05-10-2025,0,No Flag,No specific action required.,0
+CUST10683,LN100452,210000,Medical,24,10004.51,0,Repaid,700000,41,606,05-10-2023,13.21,05-10-2025,0,No Flag,No specific action required.,0
+CUST10371,LN100453,515000,Debt Consolidation,60,10886.56,7794.8,Default,904000,28,749,07-10-2023,9.78,07-07-2026,116,No Flag,No specific action required.,271560.88
+CUST10096,LN100454,110000,Medical,12,9491.59,0,Repaid,1610000,48,850,12-10-2023,6.48,12-10-2024,0,No Flag,No specific action required.,0
+CUST10688,LN100455,255000,Home Improvement,24,11889.73,0,Repaid,448000,50,706,17-10-2023,11.04,17-10-2025,0,No Flag,No specific action required.,0
+CUST10511,LN100456,75000,Debt Consolidation,12,6522.4,0,Repaid,454000,44,696,18-10-2023,7.95,18-10-2024,0,No Flag,No specific action required.,0
+CUST10494,LN100457,95000,Debt Consolidation,48,2606.51,11697.41,Default,200000,27,657,21-10-2023,14.22,21-09-2025,405,No Flag,No specific action required.,58030.85
+CUST10138,LN100459,50000,Personal,36,1699.18,0,Repaid,200000,26,689,30-10-2023,13.6,30-10-2026,0,No Flag,No specific action required.,0
+CUST10099,LN100460,90000,Home Improvement,60,2122.71,0,Active,205000,35,411,30-10-2023,14.61,30-10-2026,0,No Flag,No specific action required.,43947.1
+CUST10659,LN100461,525000,Home Improvement,48,12888.37,0,Active,1265000,44,743,30-10-2023,8.29,30-10-2026,0,No Flag,No specific action required.,147933.77
+CUST10168,LN100462,340000,Education,36,11528.13,0,Active,575000,39,605,03-11-2023,13.44,03-10-2026,0,No Flag,No specific action required.,11400.45
+CUST10207,LN100463,355000,Debt Consolidation,24,17204.33,0,Repaid,826000,47,536,12-11-2023,14.95,12-11-2025,0,No Flag,No specific action required.,0
+CUST10009,LN100464,340000,Personal,60,7486.02,0,Active,834000,44,709,12-11-2023,11.55,12-10-2026,0,No Flag,No specific action required.,165632.5
+CUST10598,LN100465,65000,Debt Consolidation,48,1758.66,0,Active,311000,36,679,14-11-2023,13.46,14-10-2026,0,No Flag,No specific action required.,21163.86
+CUST10436,LN100466,520000,Personal,60,12126.47,0,Active,684000,21,800,18-11-2023,14.1,18-10-2026,0,No Flag,No specific action required.,261373.91
+CUST10283,LN100467,220000,Home Improvement,12,19368.11,0,Repaid,1115000,29,583,19-11-2023,10.26,19-11-2024,0,No Flag,No specific action required.,0
+CUST10140,LN100468,95000,Debt Consolidation,60,2398.96,0,Active,213000,24,456,23-11-2023,17.74,23-09-2026,38,No Flag,No specific action required.,53087.64
+CUST10034,LN100469,660000,Personal,24,31685.39,0,Repaid,957000,37,611,24-11-2023,13.99,24-11-2025,0,No Flag,No specific action required.,0
+CUST10235,LN100470,135000,Debt Consolidation,24,6518.79,0,Repaid,675000,37,568,26-11-2023,14.58,26-11-2025,0,No Flag,Credit Score corrected to 568 using customer records.,0
+CUST10156,LN100471,70000,Medical,12,6313.13,4849.97,Default,386000,45,586,28-11-2023,14.85,28-07-2024,825,No Flag,No specific action required.,30426.79
+CUST10707,LN100472,75000,Debt Consolidation,36,2467.85,0,Active,312000,29,676,30-11-2023,11.35,30-10-2026,0,No Flag,No specific action required.,2444.73
+CUST10407,LN100473,50000,Education,24,2320.42,0,Repaid,702000,45,669,01-12-2023,10.57,01-12-2025,0,No Flag,No specific action required.,0
+CUST10276,LN100474,215000,Personal,36,7581.07,0,Active,543000,34,556,03-12-2023,16.21,03-09-2026,58,No Flag,No specific action required.,29327.24
+CUST10671,LN100475,325000,Personal,60,7100.37,0,Active,1170000,32,655,10-12-2023,11.21,10-08-2026,82,No Flag,No specific action required.,179646.79
+CUST10591,LN100476,505000,Debt Consolidation,60,11855.45,0,Active,1132000,31,672,13-12-2023,14.4,13-10-2026,0,No Flag,No specific action required.,263445.76
+CUST10171,LN100477,105000,Personal,36,3733.62,0,Active,510000,47,491,13-12-2023,16.81,13-08-2026,79,No Flag,No specific action required.,17908.49
+CUST10416,LN100478,340000,Education,12,29708.28,0,Repaid,2000000,31,722,13-12-2023,8.84,13-12-2024,0,No Flag,No specific action required.,0
+CUST10126,LN100479,230000,Personal,48,5492.71,0,Active,528000,40,838,14-12-2023,6.86,14-10-2026,0,No Flag,No specific action required.,73699.06
+CUST10569,LN100480,80000,Debt Consolidation,36,2697.44,0,Active,200000,34,687,14-12-2023,13.05,14-10-2026,0,No Flag,No specific action required.,5308.14
+CUST10468,LN100481,65000,Home Improvement,36,2103.48,0,Active,332000,41,642,15-12-2023,10.2,15-10-2026,0,No Flag,No specific action required.,4153.91
+CUST10680,LN100482,85000,Home Improvement,60,1882.2,0,Active,369000,49,706,19-12-2023,11.8,19-10-2026,0,No Flag,No specific action required.,42996.86
+CUST10117,LN100483,145000,Home Improvement,48,3968.89,0,Active,404000,27,631,24-12-2023,14.09,24-10-2026,0,No Flag,No specific action required.,50963.05
+CUST10098,LN100484,285000,Medical,60,6763.69,0,Active,1361000,37,654,25-12-2023,14.89,25-10-2026,0,No Flag,No specific action required.,149523.89
+CUST10174,LN100485,60000,Education,12,5239.58,0,Repaid,825000,34,631,26-12-2023,8.73,26-12-2024,0,No Flag,No specific action required.,0
+CUST10648,LN100486,75000,Education,12,6638.07,0,Repaid,349000,35,619,29-12-2023,11.27,29-12-2024,0,No Flag,No specific action required.,0
+CUST10155,LN100487,85000,Personal,48,2255.53,0,Active,374000,47,564,29-12-2023,12.41,29-10-2026,0,No Flag,No specific action required.,29257.5
+CUST10353,LN100488,745000,Education,12,66227.2,0,Repaid,1071000,51,632,29-12-2023,12.1,29-12-2024,0,No Flag,No specific action required.,0
+CUST10645,LN100489,75000,Medical,24,3537.52,0,Repaid,511000,39,712,01-01-2024,12.2,01-01-2026,0,No Flag,No specific action required.,0
+CUST10106,LN100490,185000,Education,60,4206.48,0,Active,706000,30,571,03-01-2024,12.97,03-09-2026,58,No Flag,No specific action required.,104241.27
+CUST10616,LN100491,220000,Debt Consolidation,60,4846.11,0,Active,686000,36,709,04-01-2024,11.57,04-10-2026,0,No Flag,No specific action required.,114716.91
+CUST10651,LN100492,200000,Personal,36,7094.76,0,Active,610000,40,491,05-01-2024,16.64,05-10-2026,0,No Flag,No specific action required.,20707.37
+CUST10004,LN100493,630000,Home Improvement,36,20509.23,0,Active,1876000,51,665,08-01-2024,10.61,08-10-2026,0,No Flag,No specific action required.,60455.5
+CUST10349,LN100494,60000,Medical,12,5329.8,0,Repaid,266000,32,671,09-01-2024,11.96,09-01-2025,0,No Flag,No specific action required.,0
+CUST10426,LN100495,190000,Home Improvement,60,3832.54,0,Active,1123000,28,688,09-01-2024,7.78,09-10-2026,0,No Flag,No specific action required.,94647.34
+CUST10115,LN100496,330000,Education,12,29230.64,0,Repaid,779000,50,723,09-01-2024,11.42,09-01-2025,0,No Flag,No specific action required.,0
+CUST10422,LN100497,130000,Personal,24,6231.24,0,Repaid,370000,37,693,10-01-2024,13.83,10-01-2026,0,No Flag,No specific action required.,0
+CUST10152,LN100498,235000,Personal,48,6525.94,0,Active,1304000,46,617,10-01-2024,14.88,10-10-2026,0,No Flag,No specific action required.,88824.48
+CUST10133,LN100499,75000,Home Improvement,36,2532.11,0,Active,378000,28,619,16-01-2024,13.14,16-10-2026,0,No Flag,No specific action required.,7432.95
+CUST10472,LN100500,185000,Personal,24,8570.15,0,Repaid,550000,38,744,18-01-2024,10.39,18-01-2026,0,No Flag,No specific action required.,0
+CUST10293,LN100501,155000,Medical,60,3739.71,0,Active,771000,31,582,19-01-2024,15.64,19-10-2026,0,No Flag,No specific action required.,84659.68
+CUST10456,LN100502,50000,Personal,24,2364.66,0,Repaid,608000,55,659,22-01-2024,12.47,22-01-2026,0,No Flag,No specific action required.,0
+CUST10066,LN100503,230000,Personal,60,5327.88,0,Active,1665000,32,647,23-01-2024,13.8,23-10-2026,0,No Flag,No specific action required.,123059.96
+CUST10656,LN100504,200000,Home Improvement,24,8971.75,0,Repaid,774000,26,835,24-01-2024,7.19,24-01-2026,0,No Flag,No specific action required.,0
+CUST10595,LN100505,75000,Debt Consolidation,36,2346.08,0,Active,318000,33,788,25-01-2024,7.88,25-10-2026,6,No Flag,No specific action required.,9232.25
+CUST10185,LN100506,275000,Personal,36,9039.66,110078.03,Default,840000,27,673,26-01-2024,11.28,26-05-2024,888,No Flag,No specific action required.,255453.44
+CUST10252,LN100507,450000,Home Improvement,24,20960.99,0,Repaid,1529000,24,663,29-01-2024,10.94,29-01-2026,0,No Flag,No specific action required.,0
+CUST10169,LN100508,145000,Personal,36,5351.11,0,Active,435000,48,473,30-01-2024,19.49,30-10-2026,0,No Flag,No specific action required.,15545.66
+CUST10166,LN100509,505000,Home Improvement,24,24070.34,0,Repaid,1110000,31,720,30-01-2024,13.26,30-01-2026,0,No Flag,No specific action required.,0
+CUST10392,LN100510,570000,Medical,24,27283.94,0,Repaid,460000,41,736,31-01-2024,13.69,31-01-2026,0,No Flag,No specific action required.,0
+CUST10597,LN100511,100000,Debt Consolidation,48,2884.99,0,Active,350000,23,518,31-01-2024,16.99,30-09-2026,31,No Flag,No specific action required.,43318.21
+CUST10242,LN100512,145000,Debt Consolidation,24,6527.58,0,Repaid,714000,65,821,03-02-2024,7.54,03-02-2026,0,No Flag,No specific action required.,0
+CUST10182,LN100513,190000,Debt Consolidation,48,5038.95,0,Active,1069000,40,671,03-02-2024,12.38,03-10-2026,0,No Flag,No specific action required.,73970.28
+CUST10107,LN100514,275000,Debt Consolidation,36,9507.4,0,Active,838000,37,590,10-02-2024,14.81,10-10-2026,0,No Flag,No specific action required.,36884.57
+CUST10573,LN100515,120000,Personal,60,2636.7,0,Active,380000,47,598,11-02-2024,11.46,11-10-2026,0,No Flag,No specific action required.,64512.67
+CUST10246,LN100516,95000,Personal,36,3191.78,0,Active,350000,25,631,12-02-2024,12.8,12-10-2026,0,No Flag,No specific action required.,12433.8
+CUST10554,LN100517,450000,Personal,48,12072.37,87905.68,Default,1093000,49,667,14-02-2024,13,14-05-2026,170,No Flag,No specific action required.,235187.77
+CUST10701,LN100518,230000,Personal,12,20990.19,0,Repaid,200000,49,663,16-02-2024,17.12,16-02-2025,0,No Flag,No specific action required.,0
+CUST10431,LN100519,160000,Personal,36,5509.7,0,Active,644000,46,539,19-02-2024,14.53,19-10-2026,0,No Flag,No specific action required.,21387.48
+CUST10280,LN100520,75000,Personal,12,6648.58,0,Repaid,429000,36,597,19-02-2024,11.57,19-02-2025,0,No Flag,No specific action required.,0
+CUST10600,LN100521,785000,Debt Consolidation,24,38402.29,67086.22,Default,523000,35,695,20-02-2024,15.91,20-05-2025,529,No Flag,No specific action required.,357443.07
+CUST10342,LN100522,165000,Personal,60,3597.38,0,Active,719000,21,739,22-02-2024,11.12,22-10-2026,0,No Flag,No specific action required.,88361.58
+CUST10192,LN100523,115000,Personal,24,5527.46,0,Repaid,512000,31,575,23-02-2024,14.11,23-02-2026,0,No Flag,No specific action required.,0
+CUST10085,LN100524,530000,Debt Consolidation,36,18458.39,0,Active,616000,39,718,23-02-2024,15.33,23-10-2026,0,No Flag,No specific action required.,71534.43
+CUST10521,LN100525,155000,Home Improvement,48,3749.9,0,Active,838000,41,645,25-02-2024,7.53,25-10-2026,0,No Flag,No specific action required.,56915.22
+CUST10191,LN100526,705000,Personal,60,16404.12,0,Active,1212000,33,708,26-02-2024,14,26-10-2026,0,No Flag,No specific action required.,389917.38
+CUST10584,LN100527,360000,Education,24,16777.15,46647.27,Default,1023000,35,644,29-02-2024,10.99,29-04-2025,550,No Flag,No specific action required.,174797.61
+CUST10635,LN100528,260000,Medical,60,6063.23,0,Active,1269000,40,611,02-03-2024,14.1,02-10-2026,0,No Flag,No specific action required.,148277.85
+CUST10017,LN100529,200000,Personal,60,4217.99,0,Active,1012000,47,707,02-03-2024,9.68,02-10-2026,0,No Flag,No specific action required.,108678.88
+CUST10578,LN100530,50000,Personal,48,1392.55,0,Active,302000,55,603,05-03-2024,15.04,05-09-2026,56,No Flag,No specific action required.,23414.33
+CUST10336,LN100531,300000,Debt Consolidation,24,14279.46,0,Repaid,679000,42,707,05-03-2024,13.12,05-03-2026,0,No Flag,No specific action required.,0
+CUST10634,LN100532,305000,Home Improvement,48,7905.12,0,Active,1244000,54,694,05-03-2024,11.15,05-10-2026,0,No Flag,No specific action required.,123780.7
+CUST10525,LN100533,285000,Personal,24,13062.04,0,Repaid,894000,30,696,06-03-2024,9.32,06-03-2026,0,No Flag,No specific action required.,0
+CUST10179,LN100534,405000,Medical,48,10895.31,0,Default,491000,47,735,06-03-2024,13.15,06-05-2026,178,No Flag,No specific action required.,220446.26
+CUST10667,LN100535,80000,Medical,24,3755.8,0,Repaid,374000,24,676,08-03-2024,11.73,08-03-2026,0,No Flag,No specific action required.,0
+CUST10143,LN100536,60000,Medical,36,1985.42,0,Active,555000,26,617,08-03-2024,11.74,08-10-2026,0,No Flag,No specific action required.,9642.24
+CUST10201,LN100537,50000,Personal,24,2352.51,0,Repaid,283000,40,654,11-03-2024,11.95,11-03-2026,0,No Flag,No specific action required.,0
+CUST10562,LN100538,1000000,Personal,24,49077.86,0,Default,1264000,32,606,13-03-2024,16.24,13-11-2025,352,No Flag,No specific action required.,235732.8
+CUST10082,LN100539,110000,Education,24,5001.13,0,Repaid,914000,48,763,13-03-2024,8.52,13-03-2026,0,No Flag,No specific action required.,0
+CUST10013,LN100540,165000,Education,24,7537.23,0,Repaid,869000,44,618,14-03-2024,8.99,14-03-2026,0,No Flag,No specific action required.,0
+CUST10541,LN100541,390000,Home Improvement,24,18795.11,0,Repaid,495000,35,637,19-03-2024,14.38,19-03-2026,0,No Flag,No specific action required.,0
+CUST10714,LN100542,95000,Debt Consolidation,36,3145.39,0,Active,827000,40,639,20-03-2024,11.78,20-10-2026,0,No Flag,No specific action required.,15274.18
+CUST10408,LN100543,100000,Education,36,3412.42,0,Active,565000,31,670,22-03-2024,13.89,22-10-2026,0,No Flag,No specific action required.,16485.27
+CUST10233,LN100544,255000,Home Improvement,48,6465.01,0,Active,886000,33,701,22-03-2024,9.98,22-10-2026,0,No Flag,No specific action required.,102094.66
+CUST10446,LN100545,510000,Debt Consolidation,48,13931.39,0,Active,885000,51,644,23-03-2024,13.98,23-09-2026,38,No Flag,No specific action required.,236221.11
+CUST10264,LN100546,70000,Personal,36,2395.15,0,Active,306000,51,651,26-03-2024,14.08,26-10-2026,0,No Flag,No specific action required.,11565.5
+CUST10104,LN100547,105000,Personal,48,2860.33,0,Active,583000,30,609,27-03-2024,13.83,27-10-2026,0,No Flag,No specific action required.,43929.9
+CUST10301,LN100548,70000,Education,60,1588.06,0,Active,205000,22,598,28-03-2024,12.87,28-10-2026,0,No Flag,No specific action required.,39400.2
+CUST10458,LN100549,200000,Home Improvement,24,9546.93,0,Repaid,703000,21,554,28-03-2024,13.41,28-03-2026,0,No Flag,No specific action required.,0
+CUST10235,LN100550,450000,Home Improvement,48,12324.02,0,Active,675000,37,568,30-03-2024,14.12,30-10-2026,0,No Flag,Credit Score corrected to 568 using customer records.,188882.15
+CUST10494,LN100551,50000,Personal,24,2323.67,0,Repaid,200000,27,657,31-03-2024,10.71,31-03-2026,0,No Flag,No specific action required.,0
+CUST10105,LN100552,285000,Personal,24,14074.62,0,Repaid,346000,21,646,31-03-2024,16.88,31-03-2026,0,No Flag,No specific action required.,0
+CUST10686,LN100553,105000,Personal,36,3518.17,0,Active,792000,38,698,02-04-2024,12.61,02-10-2026,0,No Flag,No specific action required.,20353.92
+CUST10475,LN100554,85000,Home Improvement,36,2884.5,0,Active,614000,45,577,03-04-2024,13.5,03-10-2026,0,No Flag,No specific action required.,16645.47
+CUST10175,LN100555,150000,Home Improvement,12,13303.47,4964.99,Default,478000,27,654,08-04-2024,11.66,08-04-2025,571,No Flag,No specific action required.,13175.45
+CUST10700,LN100556,345000,Personal,24,16424.62,0,Repaid,1188000,21,587,09-04-2024,13.14,09-04-2026,0,No Flag,No specific action required.,0
+CUST10644,LN100557,385000,Personal,36,13104.23,0,Active,671000,41,626,10-04-2024,13.71,10-10-2026,0,No Flag,No specific action required.,75574.7
+CUST10214,LN100558,95000,Personal,12,8321.11,0,Repaid,1031000,32,673,10-04-2024,9.3,10-04-2025,0,No Flag,No specific action required.,0
+CUST10209,LN100559,510000,Education,36,16949.04,0,Active,1023000,41,655,12-04-2024,12.04,12-10-2026,0,No Flag,No specific action required.,98216.53
+CUST10291,LN100560,465000,Personal,60,10308.46,0,Active,1508000,37,698,12-04-2024,11.85,12-10-2026,0,No Flag,No specific action required.,266524.08
+CUST10142,LN100561,265000,Education,36,9253.94,0,Active,561000,21,574,12-04-2024,15.52,12-10-2026,0,No Flag,No specific action required.,53094.48
+CUST10266,LN100562,50000,Debt Consolidation,12,4504.66,0,Repaid,372000,32,550,16-04-2024,14.65,16-04-2025,0,No Flag,No specific action required.,0
+CUST10657,LN100563,130000,Debt Consolidation,36,4138.2,0,Active,587000,51,755,18-04-2024,9.07,18-10-2026,0,No Flag,No specific action required.,24185.39
+CUST10160,LN100564,50000,Debt Consolidation,36,1678.44,0,Active,554000,22,615,20-04-2024,12.74,20-10-2026,0,No Flag,No specific action required.,9706.79
+CUST10718,LN100565,455000,Home Improvement,60,10350.32,0,Active,738000,46,700,23-04-2024,12.99,23-10-2026,0,No Flag,No specific action required.,263925.66
+CUST10125,LN100566,215000,Personal,36,7086.77,0,Active,705000,49,631,25-04-2024,11.47,25-10-2026,0,No Flag,No specific action required.,41133.65
+CUST10149,LN100567,495000,Debt Consolidation,36,17917.79,0,Active,346000,21,680,26-04-2024,18.09,26-10-2026,0,No Flag,No specific action required.,102054.95
+CUST10244,LN100568,50000,Education,12,4411.16,0,Repaid,200000,24,617,26-04-2024,10.66,26-04-2025,0,No Flag,No specific action required.,0
+CUST10124,LN100569,90000,Medical,48,2495.65,0,Active,466000,25,597,28-04-2024,14.8,28-10-2026,0,No Flag,No specific action required.,40064.61
+CUST10016,LN100570,60000,Medical,48,1647.42,0,Active,240000,37,658,30-04-2024,14.26,30-10-2026,0,No Flag,No specific action required.,26555.49
+CUST10270,LN100571,165000,Home Improvement,60,3292.17,0,Active,1191000,29,781,02-05-2024,7.32,02-10-2026,0,No Flag,No specific action required.,92731.52
+CUST10324,LN100572,305000,Debt Consolidation,24,14801.47,0,Repaid,587000,30,693,03-05-2024,15.09,03-05-2026,0,No Flag,No specific action required.,0
+CUST10488,LN100573,95000,Personal,24,4346.16,0,Repaid,533000,44,694,12-05-2024,9.14,12-05-2026,0,No Flag,No specific action required.,0
+CUST10637,LN100574,835000,Education,48,24676.72,208197.16,Default,1218000,48,516,14-05-2024,18.34,14-05-2026,170,No Flag,No specific action required.,509551.18
+CUST10299,LN100575,85000,Education,36,2918.74,0,Active,394000,28,580,19-05-2024,14.33,19-10-2026,0,No Flag,No specific action required.,19489.2
+CUST10693,LN100576,50000,Home Improvement,36,1708.88,0,Active,307000,33,580,20-05-2024,14,20-10-2026,0,No Flag,No specific action required.,11422.92
+CUST10292,LN100577,290000,Personal,36,10047.27,0,Active,553000,36,479,21-05-2024,14.96,21-10-2026,0,No Flag,No specific action required.,66950.88
+CUST10478,LN100578,175000,Personal,60,3944.26,66296.07,Default,641000,30,690,24-05-2024,12.58,24-09-2024,767,No Flag,No specific action required.,168604.38
+CUST10006,LN100579,505000,Personal,60,12283.3,0,Active,2000000,22,604,26-05-2024,16.01,26-10-2026,0,No Flag,No specific action required.,310191.26
+CUST10480,LN100580,70000,Personal,24,3219.82,0,Repaid,900000,38,755,27-05-2024,9.68,27-05-2026,0,No Flag,No specific action required.,0
+CUST10711,LN100581,220000,Personal,24,10200.69,0,Repaid,578000,41,708,27-05-2024,10.48,27-05-2026,0,No Flag,Credit Score corrected to 708 using customer records.,0
+CUST10170,LN100582,95000,Home Improvement,36,3087.28,0,Active,1319000,41,684,29-05-2024,10.49,29-10-2026,0,No Flag,No specific action required.,20874.72
+CUST10711,LN100583,210000,Education,24,9584.16,0,Repaid,578000,41,708,08-06-2024,8.9,08-06-2026,0,No Flag,Credit Score corrected to 708 using customer records.,0
+CUST10264,LN100584,85000,Personal,12,7479.97,0,Repaid,306000,51,651,15-06-2024,10.18,15-06-2025,0,No Flag,No specific action required.,0
+CUST10661,LN100585,150000,Education,24,7167.97,0,Repaid,713000,25,621,19-06-2024,13.52,19-06-2026,0,No Flag,No specific action required.,0
+CUST10241,LN100586,65000,Personal,36,2160.79,0,Active,274000,36,654,20-06-2024,12.06,20-10-2026,0,No Flag,No specific action required.,16530.05
+CUST10561,LN100587,70000,Home Improvement,36,2411.86,0,Active,269000,25,502,22-06-2024,14.57,22-10-2026,0,No Flag,No specific action required.,18281.93
+CUST10409,LN100588,145000,Debt Consolidation,24,6828.36,0,Repaid,367000,28,641,22-06-2024,12.04,22-06-2026,0,No Flag,No specific action required.,0
+CUST10042,LN100589,220000,Debt Consolidation,12,19707.65,0,Repaid,487000,53,625,23-06-2024,13.56,23-06-2025,0,No Flag,No specific action required.,0
+CUST10485,LN100590,385000,Medical,36,12417.45,0,Active,1665000,37,757,25-06-2024,9.97,25-10-2026,0,No Flag,No specific action required.,95726.06
+CUST10011,LN100591,270000,Home Improvement,12,23796.35,0,Repaid,802000,43,738,03-07-2024,10.47,03-07-2025,0,No Flag,No specific action required.,0
+CUST10020,LN100592,100000,Debt Consolidation,36,3469.47,0,Active,352000,27,602,03-07-2024,15.06,03-10-2026,0,No Flag,No specific action required.,29352.74
+CUST10241,LN100593,75000,Debt Consolidation,36,2606.88,0,Active,274000,36,654,04-07-2024,15.19,04-10-2026,0,No Flag,No specific action required.,22043.39
+CUST10677,LN100594,435000,Education,48,10882.92,0,Active,1647000,28,740,07-07-2024,9.28,07-10-2026,0,No Flag,No specific action required.,210201.25
+CUST10422,LN100595,165000,Medical,36,5852.36,0,Active,370000,37,693,09-07-2024,16.63,09-10-2026,0,No Flag,No specific action required.,49199.59
+CUST10012,LN100596,325000,Medical,36,11120.36,72297.15,Default,454000,23,694,10-07-2024,14.08,10-11-2024,720,No Flag,No specific action required.,302820.7
+CUST10554,LN100597,140000,Personal,48,3760.02,0,Active,1093000,49,667,12-07-2024,13.06,12-10-2026,0,No Flag,No specific action required.,70247.45
+CUST10216,LN100598,275000,Debt Consolidation,60,6250.06,0,Active,664000,23,738,12-07-2024,12.95,12-10-2026,0,No Flag,No specific action required.,172749.15
+CUST10360,LN100599,85000,Personal,36,2737.92,0,Active,416000,59,710,14-07-2024,9.88,14-09-2026,47,No Flag,No specific action required.,28680.97
+CUST10587,LN100600,50000,Medical,36,1686.87,0,Active,359000,33,530,15-07-2024,13.09,15-10-2026,0,No Flag,No specific action required.,14385.82
+CUST10171,LN100601,180000,Debt Consolidation,24,8869.37,0,Repaid,510000,47,491,20-07-2024,16.65,20-07-2026,0,No Flag,No specific action required.,0
+CUST10148,LN100602,625000,Debt Consolidation,12,57195.94,0,Repaid,913000,36,640,20-07-2024,17.65,20-07-2025,0,No Flag,No specific action required.,0
+CUST10571,LN100603,50000,Personal,60,1119.31,5802.03,Default,484000,21,645,22-07-2024,12.28,22-01-2026,282,No Flag,No specific action required.,38779.52
+CUST10358,LN100604,405000,Medical,24,19140.5,0,Repaid,1568000,52,742,22-07-2024,12.4,22-07-2026,0,No Flag,No specific action required.,0
+CUST10493,LN100605,130000,Home Improvement,60,3032.97,0,Active,521000,51,448,23-07-2024,14.12,23-10-2026,0,No Flag,No specific action required.,82547.91
+CUST10577,LN100606,225000,Personal,12,19797.82,0,Repaid,604000,44,674,27-07-2024,10.16,27-07-2025,0,No Flag,No specific action required.,0
+CUST10074,LN100607,405000,Debt Consolidation,24,19698.72,0,Repaid,694000,44,665,28-07-2024,15.32,28-07-2026,0,No Flag,No specific action required.,0
+CUST10287,LN100608,195000,Debt Consolidation,24,8905.84,0,Repaid,465000,31,774,04-08-2024,8.97,04-08-2026,0,No Flag,Missing Annual Income filled with 465000.,0
+CUST10068,LN100609,120000,Personal,48,3297.26,15032.58,Default,560000,28,472,05-08-2024,14.3,05-06-2026,148,No Flag,No specific action required.,75742.25
+CUST10577,LN100610,70000,Personal,12,6136.87,0,Repaid,604000,44,674,08-08-2024,9.47,08-08-2025,0,No Flag,No specific action required.,0
+CUST10119,LN100611,115000,Personal,48,3006.98,0,Active,784000,39,722,09-08-2024,11.62,09-10-2026,0,No Flag,No specific action required.,59324.6
+CUST10447,LN100612,260000,Medical,24,12064.99,0,Default,835000,45,641,10-08-2024,10.56,10-02-2026,263,No Flag,No specific action required.,81558.93
+CUST10319,LN100613,100000,Home Improvement,48,2915.6,0,Active,200000,21,563,11-08-2024,17.58,11-10-2026,0,No Flag,No specific action required.,54495.49
+CUST10394,LN100614,250000,Education,24,11231.72,0,Repaid,812000,52,728,15-08-2024,7.34,15-08-2026,0,No Flag,No specific action required.,0
+CUST10705,LN100615,285000,Personal,36,9800.25,0,Active,1062000,41,565,23-08-2024,14.43,23-10-2026,0,No Flag,No specific action required.,91820.86
+CUST10486,LN100616,255000,Personal,36,8710.34,0,Active,479000,29,692,31-08-2024,13.96,31-10-2026,0,No Flag,No specific action required.,81780.1
+CUST10237,LN100617,410000,Home Improvement,24,19494.07,0,Repaid,482000,30,666,01-09-2024,13.01,01-09-2026,0,No Flag,No specific action required.,0
+CUST10153,LN100618,185000,Debt Consolidation,60,4555.06,0,Active,545000,55,706,03-09-2024,16.57,03-10-2026,0,No Flag,No specific action required.,125751.87
+CUST10157,LN100619,200000,Personal,36,6921.32,0,Active,388000,31,576,06-09-2024,14.88,06-10-2026,0,No Flag,No specific action required.,70761.73
+CUST10543,LN100620,215000,Home Improvement,24,9894.39,0,Repaid,1007000,39,661,08-09-2024,9.73,08-09-2026,0,No Flag,No specific action required.,0
+CUST10647,LN100621,1000000,Home Improvement,48,27041.41,0,Active,1440000,52,653,10-09-2024,13.43,10-10-2026,0,No Flag,No specific action required.,545680.17
+CUST10645,LN100622,285000,Home Improvement,60,5961.88,0,Active,511000,39,712,11-09-2024,9.33,11-10-2026,0,No Flag,No specific action required.,182068.44
+CUST10273,LN100623,95000,Education,36,3176.73,11753.82,Default,426000,41,553,11-09-2024,12.47,11-12-2025,324,No Flag,No specific action required.,62187.65
+CUST10046,LN100624,1000000,Personal,60,27228.03,0,Active,891000,24,558,13-09-2024,21.31,13-10-2026,0,No Flag,No specific action required.,705215.03
+CUST10087,LN100625,270000,Debt Consolidation,36,9231.89,43668.45,Default,508000,36,639,14-09-2024,14.03,14-07-2025,474,No Flag,No specific action required.,212695.68
+CUST10715,LN100626,85000,Education,36,2703.77,0,Active,943000,55,623,16-09-2024,9.02,16-10-2026,0,No Flag,No specific action required.,28442.68
+CUST10687,LN100627,265000,Debt Consolidation,24,12450.97,0,Repaid,512000,50,716,18-09-2024,11.81,18-09-2026,0,No Flag,No specific action required.,0
+CUST10256,LN100628,545000,Debt Consolidation,48,16112.08,0,Active,853000,35,573,20-09-2024,18.36,20-10-2026,0,No Flag,No specific action required.,310418.38
+CUST10532,LN100629,215000,Home Improvement,60,4641.45,0,Active,663000,38,700,27-09-2024,10.69,27-10-2026,0,No Flag,No specific action required.,139037.45
+CUST10495,LN100630,340000,Personal,24,16180.19,0,Repaid,1103000,46,624,27-09-2024,13.1,27-09-2026,0,No Flag,No specific action required.,0
+CUST10250,LN100631,350000,Home Improvement,36,10806.98,0,Active,678000,37,768,29-09-2024,7,29-10-2026,0,No Flag,No specific action required.,114819.2
+CUST10508,LN100632,110000,Debt Consolidation,36,3383.92,0,Active,380000,41,838,04-10-2024,6.75,04-10-2026,0,No Flag,No specific action required.,39160.53
+CUST10408,LN100633,210000,Debt Consolidation,12,18902.76,0,Repaid,565000,31,670,05-10-2024,14.48,05-10-2025,0,No Flag,No specific action required.,0
+CUST10470,LN100634,355000,Personal,12,31191.98,0,Repaid,922000,32,790,06-10-2024,9.89,06-10-2025,0,No Flag,No specific action required.,0
+CUST10325,LN100635,50000,Education,36,1634.1,0,Active,200000,30,644,06-10-2024,10.88,06-08-2026,86,No Flag,No specific action required.,22821.28
+CUST10443,LN100636,55000,Home Improvement,36,1810.8,0,Active,200000,31,653,06-10-2024,11.39,06-10-2026,0,No Flag,No specific action required.,20446.35
+CUST10594,LN100637,215000,Debt Consolidation,36,7652.5,0,Active,621000,37,669,08-10-2024,16.88,08-10-2026,0,No Flag,No specific action required.,83957.06
+CUST10350,LN100638,475000,Medical,24,23526.18,0,Repaid,1026000,55,574,13-10-2024,17.18,13-10-2026,0,No Flag,No specific action required.,0
+CUST10519,LN100639,230000,Home Improvement,12,20740.97,0,Repaid,478000,35,604,14-10-2024,14.83,14-10-2025,0,No Flag,No specific action required.,0
+CUST10027,LN100640,90000,Medical,60,2020.24,0,Active,339000,50,700,16-10-2024,12.4,16-10-2026,0,No Flag,No specific action required.,60475.93
+CUST10333,LN100641,65000,Personal,24,3028.6,0,Repaid,561000,27,706,30-10-2024,10.97,30-10-2026,0,No Flag,No specific action required.,0
+CUST10676,LN100642,410000,Medical,24,19263.76,0,Repaid,1008000,54,578,30-10-2024,11.81,30-10-2026,0,No Flag,No specific action required.,0
+CUST10270,LN100643,170000,Debt Consolidation,60,3606.15,0,Active,1191000,29,781,30-10-2024,9.93,30-10-2026,0,No Flag,No specific action required.,111872.8
+CUST10177,LN100644,260000,Medical,24,11976.09,0,Repaid,1197000,39,716,30-10-2024,9.82,30-10-2026,0,No Flag,No specific action required.,0
+CUST10032,LN100645,235000,Education,24,11185.58,0,Active,636000,48,664,02-11-2024,13.12,02-10-2026,0,No Flag,No specific action required.,11064.61
+CUST10224,LN100646,870000,Personal,48,22498.28,0,Active,1539000,49,721,07-11-2024,11.03,07-10-2026,24,No Flag,No specific action required.,518203.6
+CUST10630,LN100647,110000,Medical,36,3768.09,0,Active,653000,44,619,17-11-2024,14.16,17-10-2026,0,No Flag,No specific action required.,45166.93
+CUST10322,LN100648,115000,Education,48,2700.78,0,Active,515000,33,850,20-11-2024,6,20-10-2026,0,No Flag,No specific action required.,63321.47
+CUST10202,LN100649,80000,Home Improvement,48,2127.98,0,Active,821000,30,599,23-11-2024,12.54,23-10-2026,0,No Flag,No specific action required.,46605.2
+CUST10189,LN100650,80000,Education,60,1752.99,20859.83,Default,603000,36,599,23-11-2024,11.34,23-10-2025,373,No Flag,No specific action required.,69595.27
+CUST10281,LN100651,685000,Debt Consolidation,24,32979.51,0,Active,1156000,43,659,25-11-2024,14.28,25-10-2026,0,No Flag,No specific action required.,32591.67
+CUST10563,LN100652,215000,Debt Consolidation,36,7415.2,0,Active,560000,35,533,26-11-2024,14.64,26-10-2026,0,No Flag,No specific action required.,88643.87
+CUST10377,LN100653,160000,Personal,48,4333.01,0,Active,352000,39,649,08-12-2024,13.51,08-10-2026,0,No Flag,No specific action required.,97197.34
+CUST10409,LN100654,175000,Debt Consolidation,12,15488.02,0,Repaid,367000,28,641,10-12-2024,11.26,10-12-2025,0,No Flag,No specific action required.,0
+CUST10585,LN100655,420000,Medical,36,14248.76,0,Active,843000,52,668,13-12-2024,13.48,13-10-2026,0,No Flag,No specific action required.,183636.9
+CUST10415,LN100656,350000,Personal,24,16963.68,0,Active,720000,33,624,13-12-2024,14.96,13-10-2026,0,No Flag,No specific action required.,33303.29
+CUST10679,LN100657,275000,Education,24,12806.94,0,Active,704000,51,628,15-12-2024,10.92,15-10-2026,0,No Flag,No specific action required.,25268.45
+CUST10114,LN100658,330000,Debt Consolidation,60,7039.16,0,Active,1465000,40,719,16-12-2024,10.17,16-10-2026,0,No Flag,No specific action required.,227872.76
+CUST10079,LN100659,290000,Education,24,13803.48,0,Active,501000,45,689,16-12-2024,13.12,16-10-2026,0,No Flag,Interest Rate corrected from 0.1312 to 13.12.,27160.72
+CUST10668,LN100660,95000,Personal,36,3079.23,0,Active,465000,34,714,18-12-2024,10.31,18-10-2026,0,No Flag,No specific action required.,40454.12
+CUST10338,LN100661,240000,Home Improvement,48,6549.93,0,Active,1162000,44,583,19-12-2024,13.93,19-10-2026,0,No Flag,No specific action required.,146274.44
+CUST10230,LN100662,130000,Personal,36,4232.68,0,Active,493000,29,675,19-12-2024,10.62,19-10-2026,0,No Flag,No specific action required.,55503.15
+CUST10685,LN100663,50000,Medical,48,1333.45,0,Active,247000,48,583,20-12-2024,12.68,20-10-2026,0,No Flag,No specific action required.,30176.63
+CUST10634,LN100664,220000,Education,48,5556.55,0,Active,1244000,54,694,20-12-2024,9.78,20-09-2026,41,No Flag,No specific action required.,138605.96
+CUST10010,LN100665,245000,Debt Consolidation,36,7895.11,0,Active,959000,42,737,23-12-2024,9.91,23-10-2026,0,No Flag,No specific action required.,103976.78
+CUST10542,LN100666,240000,Debt Consolidation,48,6308.34,0,Active,487000,28,644,26-12-2024,11.9,26-08-2026,66,No Flag,No specific action required.,158310.35
+CUST10367,LN100667,240000,Debt Consolidation,12,21594.1,86306.09,Default,923000,49,474,26-12-2024,14.4,26-05-2025,523,No Flag,No specific action required.,163785.36
+CUST10072,LN100668,95000,Medical,12,8391.83,0,Repaid,506000,34,697,01-01-2025,10.9,01-01-2026,0,No Flag,No specific action required.,0
+CUST10363,LN100669,270000,Debt Consolidation,60,6321.69,0,Active,1056000,21,696,02-01-2025,14.28,02-10-2026,0,No Flag,No specific action required.,196330.73
+CUST10586,LN100670,50000,Home Improvement,12,4359.37,0,Repaid,468000,28,599,02-01-2025,8.43,02-01-2026,0,No Flag,No specific action required.,0
+CUST10440,LN100671,170000,Medical,48,4337.81,0,Active,685000,42,738,03-01-2025,10.32,03-10-2026,0,No Flag,No specific action required.,104120.09
+CUST10691,LN100672,70000,Personal,36,2395.84,9642.17,Default,407000,50,680,03-01-2025,14.1,03-05-2025,546,No Flag,No specific action required.,65224.32
+CUST10066,LN100673,405000,Education,36,13370.7,0,Active,1665000,32,647,04-01-2025,11.58,04-10-2026,0,No Flag,No specific action required.,185888.4
+CUST10626,LN100674,380000,Debt Consolidation,24,18489.99,0,Active,968000,46,623,05-01-2025,15.36,05-10-2026,26,No Flag,No specific action required.,71652.49
+CUST10369,LN100675,225000,Home Improvement,24,10327.65,0,Active,1140000,24,637,06-01-2025,9.47,06-10-2026,0,No Flag,No specific action required.,30500.31
+CUST10374,LN100676,135000,Debt Consolidation,36,4679.16,0,Active,522000,30,560,11-01-2025,14.99,11-10-2026,0,No Flag,No specific action required.,63643.18
+CUST10038,LN100677,385000,Personal,24,18015.6,0,Active,684000,42,782,12-01-2025,11.4,12-10-2026,0,No Flag,No specific action required.,53035.94
+CUST10120,LN100678,145000,Personal,12,12679.12,0,Repaid,754000,41,680,14-01-2025,8.98,14-01-2026,0,No Flag,No specific action required.,0
+CUST10593,LN100679,65000,Education,36,2160.48,0,Active,478000,37,613,19-01-2025,12.05,19-10-2026,0,No Flag,No specific action required.,29945.55
+CUST10691,LN100680,225000,Personal,24,10700.08,0,Active,407000,50,680,21-01-2025,13.03,21-10-2026,0,No Flag,No specific action required.,31415.55
+CUST10589,LN100681,130000,Home Improvement,12,11555.82,0,Repaid,452000,37,609,24-01-2025,12.09,24-01-2026,0,No Flag,Credit Score corrected to 609 using customer records.,0
+CUST10277,LN100682,50000,Debt Consolidation,36,1683.73,0,Active,324000,40,524,24-01-2025,12.96,24-10-2026,7,No Flag,No specific action required.,24619.06
+CUST10684,LN100683,615000,Debt Consolidation,12,55816.94,0,Repaid,1469000,30,595,24-01-2025,16.06,24-01-2026,0,No Flag,No specific action required.,0
+CUST10348,LN100684,365000,Medical,60,7688.89,0,Active,819000,28,795,28-01-2025,9.63,28-10-2026,0,No Flag,No specific action required.,256600.76
+CUST10227,LN100979,425000,Personal,36,14924.96,0,Active,570000,53,636,20-08-2026,15.92,20-10-2026,0,No Flag,No specific action required.,406303.55
+CUST10245,LN100685,730000,Personal,24,34856.59,0,Active,1374000,44,712,29-01-2025,13.44,29-10-2026,0,No Flag,No specific action required.,102270.41
+CUST10494,LN100686,50000,Personal,12,4420.25,0,Default,200000,27,657,03-02-2025,11.05,03-02-2026,270,No Flag,No specific action required.,4379.92
+CUST10033,LN100687,85000,Personal,60,1945.34,0,Active,596000,21,710,04-02-2025,13.26,04-10-2026,0,No Flag,No specific action required.,62618.98
+CUST10703,LN100688,100000,Debt Consolidation,36,3264.41,0,Active,653000,42,688,09-02-2025,10.8,09-10-2026,0,No Flag,No specific action required.,48441.76
+CUST10596,LN100689,175000,Education,48,4628.21,0,Active,841000,47,613,10-02-2025,12.23,10-10-2026,0,No Flag,No specific action required.,112246.29
+CUST10089,LN100690,270000,Debt Consolidation,24,12629.29,0,Active,982000,40,745,14-02-2025,11.36,14-10-2026,0,No Flag,No specific action required.,49343.86
+CUST10400,LN100691,490000,Personal,48,13575.05,0,Active,893000,34,633,14-02-2025,14.75,14-10-2026,0,No Flag,No specific action required.,319948.47
+CUST10086,LN100692,180000,Medical,12,15983.52,0,Repaid,642000,50,621,18-02-2025,11.89,18-02-2026,0,No Flag,No specific action required.,0
+CUST10076,LN100693,100000,Debt Consolidation,36,3210.31,0,Active,919000,29,717,18-02-2025,9.65,18-10-2026,0,No Flag,No specific action required.,48017.11
+CUST10405,LN100694,195000,Personal,24,9627.19,0,Active,732000,24,630,19-02-2025,16.85,19-10-2026,0,No Flag,No specific action required.,37194
+CUST10026,LN100695,60000,Home Improvement,36,1954.11,0,Active,463000,42,661,26-02-2025,10.64,26-10-2026,0,No Flag,No specific action required.,29029.62
+CUST10127,LN100696,265000,Personal,36,8945.5,51375.94,Default,852000,44,574,28-02-2025,13.13,28-08-2025,429,No Flag,No specific action required.,234101.4
+CUST10717,LN100697,140000,Personal,36,4531.22,0,Active,917000,30,659,01-03-2025,10.21,01-10-2026,0,No Flag,No specific action required.,71436.94
+CUST10564,LN100698,360000,Education,12,31845.95,0,Repaid,724000,41,655,01-03-2025,11.17,01-03-2026,0,No Flag,No specific action required.,0
+CUST10524,LN100699,135000,Home Improvement,48,3384.54,0,Active,1058000,46,721,02-03-2025,9.39,02-10-2026,0,No Flag,No specific action required.,87507.12
+CUST10364,LN100700,125000,Debt Consolidation,36,4201.52,0,Active,501000,44,642,03-03-2025,12.83,03-10-2026,0,No Flag,No specific action required.,64994.42
+CUST10421,LN100701,50000,Personal,24,2257.49,0,Active,257000,44,688,08-03-2025,7.83,08-10-2026,0,No Flag,No specific action required.,11069.82
+CUST10065,LN100702,140000,Education,24,6395.86,0,Active,335000,31,682,09-03-2025,9,09-09-2026,52,No Flag,No specific action required.,43457.58
+CUST10037,LN100703,250000,Home Improvement,24,11452.18,0,Active,838000,50,649,09-03-2025,9.27,09-10-2026,0,No Flag,No specific action required.,55957.44
+CUST10277,LN100704,80000,Medical,36,2765.01,0,Active,324000,40,524,09-03-2025,14.79,09-10-2026,0,No Flag,No specific action required.,42174.23
+CUST10340,LN100705,260000,Education,12,22377.27,0,Repaid,1230000,49,755,10-03-2025,6,10-03-2026,0,No Flag,No specific action required.,0
+CUST10352,LN100706,90000,Education,12,8001.44,0,Repaid,853000,46,442,10-03-2025,12.12,10-03-2026,0,No Flag,No specific action required.,0
+CUST10045,LN100707,130000,Medical,36,4327.8,0,Active,633000,53,546,13-03-2025,12.16,13-10-2026,0,No Flag,No specific action required.,67272.5
+CUST10052,LN100708,50000,Personal,12,4473.61,0,Repaid,404000,26,578,13-03-2025,13.33,13-03-2026,0,No Flag,No specific action required.,0
+CUST10187,LN100709,75000,Debt Consolidation,60,1790.94,0,Active,638000,29,576,16-03-2025,15.17,16-10-2026,0,No Flag,No specific action required.,57027.11
+CUST10146,LN100710,340000,Debt Consolidation,24,15598.41,0,Active,1405000,22,771,17-03-2025,9.42,17-10-2026,0,No Flag,No specific action required.,76188.48
+CUST10374,LN100711,430000,Personal,24,21138.47,0,Active,522000,30,560,20-03-2025,16.41,20-10-2026,11,No Flag,No specific action required.,120975.13
+CUST10098,LN100712,90000,Education,48,2285.23,0,Active,1361000,37,654,22-03-2025,10.06,22-10-2026,0,No Flag,No specific action required.,58613.99
+CUST10501,LN100713,210000,Home Improvement,48,5740.67,0,Active,556000,55,653,22-03-2025,14.02,22-10-2026,0,No Flag,No specific action required.,140520.72
+CUST10332,LN100714,50000,Debt Consolidation,12,4364.93,0,Repaid,415000,33,645,23-03-2025,8.67,23-03-2026,0,No Flag,No specific action required.,0
+CUST10243,LN100715,50000,Home Improvement,60,1160.56,0,Active,369000,27,520,23-03-2025,13.89,23-10-2026,0,No Flag,No specific action required.,37714.8
+CUST10595,LN100716,50000,Personal,60,978.31,0,Active,318000,33,788,24-03-2025,6.5,24-10-2026,0,No Flag,No specific action required.,35882.14
+CUST10636,LN100717,75000,Debt Consolidation,36,2506.5,0,Active,347000,37,677,25-03-2025,12.43,25-10-2026,0,No Flag,No specific action required.,38885.87
+CUST10109,LN100718,120000,Home Improvement,48,3072.41,0,Active,626000,40,714,25-03-2025,10.5,25-09-2026,36,No Flag,No specific action required.,83103.85
+CUST10718,LN100719,80000,Personal,12,6990.18,0,Repaid,738000,46,700,25-03-2025,8.84,25-03-2026,0,No Flag,No specific action required.,0
+CUST10504,LN100720,115000,Personal,60,2511.86,0,Active,876000,21,748,27-03-2025,11.2,27-10-2026,0,No Flag,No specific action required.,85245.93
+CUST10300,LN100721,160000,Education,24,7468.4,30305.26,Default,1105000,64,601,03-04-2025,11.15,03-04-2026,211,No Flag,No specific action required.,91057.18
+CUST10282,LN100722,165000,Personal,36,5324.86,0,Active,833000,26,687,07-04-2025,10.01,07-10-2026,0,No Flag,No specific action required.,88656.53
+CUST10129,LN100723,330000,Debt Consolidation,12,29705.89,0,Repaid,581000,25,590,10-04-2025,14.49,10-04-2026,0,No Flag,No specific action required.,0
+CUST10443,LN100724,60000,Education,24,2838.72,0,Active,200000,31,653,11-04-2025,12.51,11-10-2026,0,No Flag,No specific action required.,16427.73
+CUST10313,LN100725,555000,Debt Consolidation,36,19222.95,0,Active,844000,37,709,13-04-2025,14.94,13-09-2026,48,No Flag,No specific action required.,338479.43
+CUST10308,LN100726,90000,Education,12,7975.35,0,Repaid,415000,43,578,16-04-2025,11.5,16-04-2026,0,No Flag,No specific action required.,0
+CUST10454,LN100727,150000,Personal,36,5272.07,0,Active,332000,24,572,22-04-2025,15.98,22-10-2026,0,No Flag,No specific action required.,83887.47
+CUST10649,LN100728,340000,Personal,12,30510.03,0,Repaid,871000,43,636,23-04-2025,13.89,23-04-2026,0,No Flag,Credit Score corrected to 636 using customer records.,0
+CUST10339,LN100729,630000,Personal,60,13609.92,0,Active,2000000,48,726,25-04-2025,10.72,25-10-2026,0,No Flag,No specific action required.,474878.14
+CUST10628,LN100730,250000,Home Improvement,36,8130.33,0,Active,397000,32,768,25-04-2025,10.54,25-10-2026,0,No Flag,No specific action required.,134817.84
+CUST10240,LN100731,65000,Debt Consolidation,24,3142.99,0,Active,203000,30,644,25-04-2025,14.72,25-10-2026,0,No Flag,No specific action required.,18074.09
+CUST10331,LN100732,725000,Debt Consolidation,36,25199.87,93797.85,Default,1116000,36,712,27-04-2025,15.19,27-02-2026,246,No Flag,No specific action required.,573275.48
+CUST10380,LN100733,240000,Personal,24,10636.95,0,Active,1669000,48,850,29-04-2025,6,29-10-2026,0,No Flag,No specific action required.,62719.53
+CUST10434,LN100734,150000,Debt Consolidation,24,7056.12,0,Active,359000,44,627,07-05-2025,11.93,07-10-2026,0,No Flag,No specific action required.,47485.8
+CUST10485,LN100735,495000,Debt Consolidation,60,10096.14,0,Active,1665000,37,757,09-05-2025,8.25,09-10-2026,0,No Flag,No specific action required.,374740.31
+CUST10234,LN100736,185000,Education,60,4096.55,0,Active,828000,41,602,09-05-2025,11.8,09-10-2026,0,No Flag,No specific action required.,143083.83
+CUST10586,LN100737,190000,Debt Consolidation,12,17031.85,0,Repaid,468000,28,599,11-05-2025,13.69,11-05-2026,0,No Flag,No specific action required.,0
+CUST10523,LN100738,270000,Medical,12,23291.33,0,Repaid,1470000,43,805,12-05-2025,6.43,12-05-2026,0,No Flag,No specific action required.,0
+CUST10617,LN100739,385000,Debt Consolidation,36,13016.72,0,Active,890000,48,776,14-05-2025,13.24,14-10-2026,0,No Flag,No specific action required.,222016.15
+CUST10586,LN100740,310000,Debt Consolidation,24,15036.75,0,Active,468000,28,599,15-05-2025,15.04,15-10-2026,0,No Flag,No specific action required.,100172.73
+CUST10029,LN100741,225000,Personal,60,5531.52,0,Active,339000,40,593,19-05-2025,16.5,19-10-2026,0,No Flag,No specific action required.,178670.29
+CUST10123,LN100742,115000,Personal,36,4131.61,0,Active,416000,39,620,20-05-2025,17.55,20-10-2026,0,No Flag,No specific action required.,68106.7
+CUST10387,LN100743,455000,Personal,12,40652.17,0,Default,1158000,42,548,20-05-2025,13.06,20-10-2025,376,No Flag,No specific action required.,309850.8
+CUST10652,LN100744,315000,Debt Consolidation,60,7803.18,0,Active,829000,34,591,20-05-2025,16.85,20-10-2026,0,No Flag,No specific action required.,250608.04
+CUST10572,LN100745,95000,Home Improvement,24,4510.23,0,Active,445000,44,560,22-05-2025,12.86,22-10-2026,0,No Flag,No specific action required.,30260.6
+CUST10575,LN100746,100000,Home Improvement,48,2398.34,0,Active,609000,35,799,25-05-2025,7.08,25-10-2026,0,No Flag,No specific action required.,67763.54
+CUST10131,LN100747,375000,Personal,12,32435.43,0,Repaid,1196000,32,850,30-05-2025,6.93,30-05-2026,0,No Flag,No specific action required.,0
+CUST10511,LN100748,165000,Personal,48,4398.74,0,Active,454000,44,696,01-06-2025,12.66,01-10-2026,0,No Flag,No specific action required.,118935.58
+CUST10272,LN100749,425000,Home Improvement,48,10082.78,0,Active,1957000,32,794,03-06-2025,6.52,03-10-2026,0,No Flag,No specific action required.,295423.05
+CUST10417,LN100750,210000,Home Improvement,60,5000.3,0,Active,496000,42,615,06-06-2025,15.04,06-10-2026,0,No Flag,No specific action required.,168328.27
+CUST10546,LN100752,105000,Personal,60,2080.12,0,Active,473000,45,717,09-06-2025,7.02,09-10-2026,22,No Flag,No specific action required.,82088.36
+CUST10172,LN100753,100000,Education,12,8606.64,0,Repaid,522000,56,807,10-06-2025,6,10-06-2026,0,No Flag,No specific action required.,0
+CUST10348,LN100754,235000,Medical,36,7572.86,0,Active,819000,28,795,17-06-2025,9.91,17-10-2026,0,No Flag,"Age outlier 142 replaced with 28 using customer records (same customer CUST10348, loan LN100684).",139083.07
+CUST10479,LN100755,120000,Debt Consolidation,48,2900.35,0,Active,575000,33,767,17-06-2025,7.48,17-10-2026,0,No Flag,No specific action required.,83904.68
+CUST10189,LN100756,155000,Debt Consolidation,48,4259.75,0,Active,603000,36,599,19-06-2025,14.31,19-10-2026,0,No Flag,No specific action required.,112767.69
+CUST10528,LN100757,80000,Home Improvement,12,7020.26,0,Repaid,546000,44,650,20-06-2025,9.65,20-06-2026,0,No Flag,No specific action required.,0
+CUST10188,LN100758,565000,Debt Consolidation,36,19124.28,0,Active,2000000,35,602,21-06-2025,13.32,21-08-2026,71,No Flag,No specific action required.,386320.14
+CUST10030,LN100759,155000,Medical,36,5060.57,0,Active,1311000,43,718,22-06-2025,10.81,22-10-2026,0,No Flag,No specific action required.,92239.03
+CUST10547,LN100760,140000,Medical,12,12499.16,0,Repaid,1224000,39,506,22-06-2025,12.92,22-06-2026,0,No Flag,No specific action required.,0
+CUST10433,LN100761,185000,Debt Consolidation,36,6782.3,0,Active,437000,34,532,25-06-2025,19.01,25-10-2026,0,No Flag,No specific action required.,115482.42
+CUST10104,LN100762,290000,Debt Consolidation,36,10141.22,0,Default,583000,30,609,26-06-2025,15.62,26-11-2025,339,No Flag,No specific action required.,264032.92
+CUST10451,LN100763,55000,Home Improvement,24,2608.09,0,Active,200000,37,591,28-06-2025,12.74,28-10-2026,0,No Flag,No specific action required.,19902.17
+CUST10450,LN100764,160000,Debt Consolidation,24,7418.69,0,Active,668000,52,742,28-06-2025,10.48,28-10-2026,0,No Flag,No specific action required.,57083.35
+CUST10334,LN100765,85000,Debt Consolidation,12,7539.83,0,Repaid,233000,31,656,29-06-2025,11.69,29-06-2026,0,No Flag,No specific action required.,0
+CUST10070,LN100766,330000,Debt Consolidation,36,11138.09,0,Active,2000000,31,657,29-06-2025,13.12,29-10-2026,0,No Flag,No specific action required.,199116.66
+CUST10550,LN100767,70000,Debt Consolidation,36,2447.19,0,Active,200000,30,507,01-07-2025,15.6,01-10-2026,30,No Flag,No specific action required.,46562.8
+CUST10150,LN100768,85000,Personal,36,2913.78,0,Active,485000,22,618,03-07-2025,14.21,03-10-2026,0,No Flag,No specific action required.,53893.96
+CUST10326,LN100769,260000,Education,24,11932.98,0,Active,786000,25,772,03-07-2025,9.46,03-10-2026,0,No Flag,No specific action required.,103283.15
+CUST10381,LN100770,255000,Debt Consolidation,24,11301.76,0,Active,829000,27,850,05-07-2025,6,05-10-2026,0,No Flag,No specific action required.,99218.83
+CUST10567,LN100771,50000,Personal,12,4479.01,0,Repaid,268000,44,506,05-07-2025,13.56,05-07-2026,0,No Flag,No specific action required.,0
+CUST10588,LN100772,180000,Debt Consolidation,36,5849.59,68638.67,Default,690000,31,678,10-07-2025,10.49,10-12-2025,325,No Flag,No specific action required.,162670.04
+CUST10666,LN100773,50000,Debt Consolidation,48,1342.86,0,Active,261000,48,701,15-07-2025,13.06,15-10-2026,0,No Flag,No specific action required.,37062.34
+CUST10056,LN100774,50000,Personal,24,2367.94,0,Active,200000,33,558,16-07-2025,12.61,16-10-2026,0,No Flag,Missing Annual Income filled with 200000.,20233.56
+CUST10445,LN100775,240000,Personal,60,5419.06,0,Active,1102000,42,686,16-07-2025,12.66,16-10-2026,0,No Flag,No specific action required.,193345.07
+CUST10311,LN100776,210000,Home Improvement,12,18201.61,0,Repaid,497000,38,762,16-07-2025,7.32,16-07-2026,0,No Flag,No specific action required.,0
+CUST10008,LN100777,100000,Medical,48,2594.28,0,Active,442000,35,703,18-07-2025,11.2,18-10-2026,0,No Flag,No specific action required.,73390.43
+CUST10437,LN100778,380000,Personal,48,10228.43,0,Active,1199000,65,556,19-07-2025,13.18,19-10-2026,0,No Flag,No specific action required.,281852.34
+CUST10404,LN100779,250000,Debt Consolidation,36,8725.21,0,Active,742000,30,545,21-07-2025,15.48,21-10-2026,0,No Flag,No specific action required.,159613.74
+CUST10663,LN100781,525000,Education,60,11635.93,0,Active,985000,41,722,30-07-2025,11.84,30-10-2026,0,No Flag,No specific action required.,421178.07
+CUST10147,LN100782,135000,Debt Consolidation,36,4782.27,0,Active,1066000,21,573,30-07-2025,16.54,30-10-2026,0,No Flag,No specific action required.,86685.74
+CUST10503,LN100783,195000,Debt Consolidation,24,8676.83,0,Active,821000,42,845,05-08-2025,6.39,05-10-2026,0,No Flag,No specific action required.,84280.25
+CUST10665,LN100784,210000,Education,24,9422.25,0,Active,708000,51,746,07-08-2025,7.21,07-10-2026,0,No Flag,No specific action required.,91182.2
+CUST10527,LN100785,155000,Education,48,4068.06,0,Active,611000,34,737,08-08-2025,11.82,08-10-2026,0,No Flag,No specific action required.,117051.54
+CUST10485,LN100786,625000,Home Improvement,12,54752.86,0,Repaid,1665000,37,757,09-08-2025,9.33,09-08-2026,0,No Flag,No specific action required.,0
+CUST10334,LN100787,50000,Medical,24,2332.95,0,Active,233000,31,656,11-08-2025,11.11,11-10-2026,0,No Flag,No specific action required.,22184.21
+CUST10545,LN100788,435000,Debt Consolidation,48,11542.98,0,Active,1073000,48,662,13-08-2025,12.41,13-10-2026,0,No Flag,No specific action required.,329467.42
+CUST10392,LN100789,65000,Personal,60,1329.82,0,Active,460000,41,736,13-08-2025,8.38,13-10-2026,0,No Flag,No specific action required.,52164.9
+CUST10070,LN100790,1000000,Personal,12,89533.23,0,Repaid,2000000,31,657,15-08-2025,13.46,15-08-2026,0,No Flag,No specific action required.,0
+CUST10557,LN100791,55000,Education,60,1249.73,0,Active,514000,31,582,19-08-2025,12.94,19-09-2026,42,No Flag,No specific action required.,46635.69
+CUST10411,LN100792,145000,Personal,36,4757.42,0,Active,876000,34,731,19-08-2025,11.15,19-10-2026,0,No Flag,No specific action required.,94264.83
+CUST10487,LN100793,200000,Personal,36,6779.32,0,Active,342000,32,616,26-08-2025,13.42,26-10-2026,0,No Flag,No specific action required.,131566.55
+CUST10647,LN100794,285000,Personal,48,7572.49,0,Active,1440000,52,653,30-08-2025,12.48,30-10-2026,0,No Flag,No specific action required.,215932.99
+CUST10166,LN100795,390000,Debt Consolidation,60,8967.81,0,Active,1110000,31,720,31-08-2025,13.47,31-10-2026,0,No Flag,No specific action required.,320833.31
+CUST10346,LN100796,105000,Medical,60,2336.2,0,Active,700000,26,658,31-08-2025,12.01,31-10-2026,0,No Flag,No specific action required.,85786.68
+CUST10372,LN100797,525000,Debt Consolidation,36,17894.85,0,Active,1529000,39,716,02-09-2025,13.81,02-10-2026,0,No Flag,Missing Interest Rate filled with 13.81.,359809.4
+CUST10716,LN100798,235000,Personal,48,5982.8,0,Active,1078000,51,790,04-09-2025,10.2,04-10-2026,0,No Flag,No specific action required.,180464.66
+CUST10405,LN100799,475000,Personal,48,13133.09,0,Active,732000,24,630,04-09-2025,14.64,04-10-2026,0,No Flag,No specific action required.,372299.85
+CUST10221,LN100800,140000,Debt Consolidation,60,2825.98,0,Active,444000,55,767,05-09-2025,7.81,05-10-2026,0,No Flag,No specific action required.,114111.77
+CUST10556,LN100801,65000,Debt Consolidation,60,1643.86,0,Active,200000,37,554,06-09-2025,17.81,06-10-2026,25,No Flag,No specific action required.,56150.86
+CUST10036,LN100802,475000,Personal,60,10351.36,0,Active,796000,40,706,09-09-2025,11.1,09-10-2026,0,No Flag,No specific action required.,393103.5
+CUST10398,LN100803,150000,Medical,36,4689.39,0,Active,1142000,47,760,13-09-2025,7.84,13-10-2026,0,No Flag,No specific action required.,99841.58
+CUST10522,LN100804,545000,Personal,24,25522.9,0,Active,1006000,38,717,13-09-2025,11.48,13-10-2026,0,No Flag,No specific action required.,265283.03
+CUST10632,LN100805,310000,Personal,36,10349.82,0,Active,722000,26,658,15-09-2025,12.36,15-10-2026,0,No Flag,No specific action required.,210988.71
+CUST10010,LN100806,425000,Personal,60,9711.44,0,Default,959000,42,737,17-09-2025,13.19,17-02-2026,256,No Flag,No specific action required.,404505.23
+CUST10323,LN100807,200000,Debt Consolidation,24,9552.58,0,Active,814000,56,595,21-09-2025,13.47,21-10-2026,0,No Flag,No specific action required.,98332.47
+CUST10456,LN100808,140000,Home Improvement,24,6420.3,0,Active,608000,55,659,22-09-2025,9.38,22-10-2026,0,No Flag,No specific action required.,67420.27
+CUST10088,LN100809,105000,Medical,60,2246.99,0,Active,349000,40,724,22-09-2025,10.31,22-09-2026,39,No Flag,No specific action required.,89554.32
+CUST10217,LN100810,50000,Personal,48,1229.82,0,Active,271000,35,659,24-09-2025,8.39,24-10-2026,0,No Flag,"Credit Score checked; zero or missing value replaced with median (659), where applicable.",38064.36
+CUST10370,LN100811,125000,Debt Consolidation,36,4170.32,0,Active,296000,48,745,24-09-2025,12.31,24-10-2026,0,No Flag,No specific action required.,85055.57
+CUST10056,LN100812,85000,Education,36,2943.22,12854.98,Default,200000,33,558,24-09-2025,14.92,24-04-2026,190,No Flag,Missing Annual Income filled with 200000.,73323.96
+CUST10263,LN100813,55000,Home Improvement,48,1449.44,0,Active,229000,46,636,27-09-2025,12.04,27-10-2026,0,No Flag,No specific action required.,42602.12
+CUST10034,LN100814,170000,Personal,24,7938.34,0,Active,957000,37,611,27-09-2025,11.19,27-08-2026,65,No Flag,No specific action required.,103735.83
+CUST10122,LN100815,105000,Debt Consolidation,48,3002.69,0,Active,486000,21,534,29-09-2025,16.5,29-10-2026,0,No Flag,No specific action required.,82974.61
+CUST10329,LN100816,225000,Debt Consolidation,24,10534.88,0,Active,752000,32,790,30-09-2025,11.46,30-10-2026,0,No Flag,No specific action required.,109509.42
+CUST10506,LN100817,485000,Education,48,12841.08,0,Active,734000,36,758,03-10-2025,12.29,03-10-2026,0,No Flag,No specific action required.,385005.28
+CUST10639,LN100818,205000,Personal,48,5038.4,0,Active,477000,44,770,03-10-2025,8.35,03-10-2026,0,No Flag,No specific action required.,159958.87
+CUST10082,LN100819,85000,Personal,24,3845.87,0,Active,914000,48,763,04-10-2025,8.04,04-10-2026,0,No Flag,No specific action required.,44201.89
+CUST10424,LN100820,90000,Medical,24,4187.61,0,Active,365000,48,696,04-10-2025,10.83,04-10-2026,0,No Flag,No specific action required.,47423.47
+CUST10316,LN100821,345000,Home Improvement,36,11794.63,0,Active,768000,32,577,06-10-2025,14.02,06-10-2026,0,No Flag,No specific action required.,245607.27
+CUST10712,LN100822,70000,Home Improvement,24,3235.96,0,Active,788000,33,671,08-10-2025,10.18,08-10-2026,0,No Flag,No specific action required.,36772.47
+CUST10010,LN100823,380000,Education,24,18201.84,0,Active,959000,42,737,10-10-2025,13.76,10-10-2026,0,No Flag,No specific action required.,202977.38
+CUST10534,LN100824,305000,Education,36,11118.5,0,Active,885000,35,442,12-10-2025,18.6,12-08-2026,80,No Flag,No specific action required.,243782.8
+CUST10341,LN100825,225000,Home Improvement,36,7044.46,0,Active,556000,65,773,15-10-2025,7.94,15-10-2026,0,No Flag,No specific action required.,155851.03
+CUST10195,LN100826,115000,Medical,36,3697.78,0,Active,849000,26,768,18-10-2025,9.76,18-10-2026,0,No Flag,No specific action required.,80326.79
+CUST10180,LN100827,75000,Personal,48,1926.05,0,Active,418000,31,646,20-10-2025,10.66,20-10-2026,0,No Flag,No specific action required.,59121.41
+CUST10211,LN100828,125000,Debt Consolidation,36,3896.32,0,Active,322000,43,733,22-10-2025,7.64,22-10-2026,0,No Flag,No specific action required.,86463.29
+CUST10210,LN100829,75000,Personal,60,1646.81,0,Default,533000,31,611,26-10-2025,11.43,26-07-2026,97,No Flag,No specific action required.,67287.04
+CUST10108,LN100830,55000,Debt Consolidation,24,2599.58,0,Active,487000,43,514,28-10-2025,12.41,28-10-2026,3,No Flag,No specific action required.,31469.6
+CUST10403,LN100831,315000,Education,48,8806.66,94936.27,Default,587000,49,656,01-11-2025,15.25,01-07-2026,122,No Flag,No specific action required.,280065.84
+CUST10389,LN100833,180000,Personal,48,4535.07,0,Active,732000,42,750,04-11-2025,9.65,04-10-2026,0,No Flag,No specific action required.,144637.65
+CUST10028,LN100834,685000,Education,24,32643.42,0,Active,1763000,43,540,04-11-2025,13.24,04-10-2026,0,No Flag,No specific action required.,393320.59
+CUST10051,LN100835,700000,Home Improvement,36,22712.12,0,Active,1480000,36,685,07-11-2025,10.38,07-10-2026,0,No Flag,No specific action required.,508637.78
+CUST10110,LN100836,300000,Personal,12,26965.79,0,Active,509000,36,674,11-11-2025,14.21,11-09-2026,50,No Flag,No specific action required.,79018.59
+CUST10518,LN100837,50000,Home Improvement,48,1259.74,0,Active,336000,46,728,15-11-2025,9.65,15-10-2026,0,No Flag,No specific action required.,40177.13
+CUST10278,LN100838,90000,Personal,60,2129.3,0,Active,443000,39,592,18-11-2025,14.75,18-10-2026,0,No Flag,No specific action required.,78028.67
+CUST10430,LN100839,960000,Personal,24,45527.5,264253.84,Default,1001000,35,709,20-11-2025,12.75,20-07-2026,103,No Flag,No specific action required.,704683.96
+CUST10228,LN100840,100000,Personal,24,4578.57,0,Active,360000,34,693,27-11-2025,9.22,27-10-2026,0,No Flag,No specific action required.,56439.51
+CUST10116,LN100841,715000,Debt Consolidation,48,19309.66,0,Active,1215000,37,691,29-11-2025,13.36,29-10-2026,0,No Flag,No specific action required.,582970.47
+CUST10080,LN100842,150000,Home Improvement,12,13600.4,0,Active,279000,36,630,29-11-2025,15.87,29-10-2026,0,No Flag,No specific action required.,13422.88
+CUST10620,LN100843,120000,Personal,60,2833.42,0,Active,942000,26,549,30-11-2025,14.66,30-10-2026,0,No Flag,No specific action required.,104005.08
+CUST10547,LN100844,520000,Education,36,18371.64,0,Active,1224000,39,506,03-12-2025,16.35,03-10-2026,0,No Flag,No specific action required.,399955.97
+CUST10590,LN100845,190000,Education,12,17104.28,0,Active,277000,50,637,03-12-2025,14.5,03-10-2026,0,No Flag,No specific action required.,33598.38
+CUST10128,LN100846,145000,Home Improvement,60,3291.78,0,Active,620000,42,707,04-12-2025,12.9,04-10-2026,0,No Flag,No specific action required.,126806.88
+CUST10523,LN100847,250000,Personal,36,7605.48,0,Active,1470000,43,805,08-12-2025,6,08-10-2026,0,No Flag,No specific action required.,184995.94
+CUST10553,LN100848,295000,Home Improvement,12,26771.19,0,Active,463000,37,521,08-12-2025,16.04,08-10-2026,0,No Flag,No specific action required.,52487.67
+CUST10533,LN100849,160000,Personal,60,3628.22,0,Active,844000,34,635,08-12-2025,12.85,08-10-2026,0,No Flag,No specific action required.,139901.57
+CUST10111,LN100850,240000,Personal,36,7849.34,0,Active,679000,38,674,09-12-2025,10.93,09-10-2026,0,No Flag,No specific action required.,180988.06
+CUST10356,LN100851,90000,Personal,36,3072.49,0,Active,472000,36,535,12-12-2025,13.92,12-10-2026,0,No Flag,No specific action required.,68622.79
+CUST10205,LN100852,90000,Personal,48,2357.69,0,Active,505000,46,660,13-12-2025,11.72,13-10-2026,0,No Flag,No specific action required.,74545.99
+CUST10697,LN100853,275000,Personal,24,13149.04,0,Active,629000,45,584,17-12-2025,13.58,17-10-2026,0,No Flag,No specific action required.,169361.72
+CUST10579,LN100854,90000,Personal,12,8129.19,0,Active,357000,34,570,23-12-2025,15.14,23-10-2026,0,No Flag,No specific action required.,15955.8
+CUST10212,LN100855,375000,Debt Consolidation,24,17628.04,0,Active,2000000,32,710,23-12-2025,11.86,23-10-2026,0,No Flag,No specific action required.,229424.29
+CUST10488,LN100856,355000,Education,24,16329.07,0,Active,533000,44,694,24-12-2025,9.68,24-10-2026,0,No Flag,No specific action required.,215351.42
+CUST10383,LN100857,1000000,Medical,24,48050.69,0,Active,1156000,57,850,25-12-2025,14.08,25-10-2026,0,No Flag,No specific action required.,617038.44
+CUST10555,LN100858,1000000,Home Improvement,12,87785.72,0,Active,2000000,55,713,26-12-2025,9.72,26-10-2026,0,No Flag,No specific action required.,173461.04
+CUST10123,LN100859,285000,Debt Consolidation,12,25624.21,0,Active,416000,39,620,26-12-2025,14.26,26-10-2026,0,No Flag,No specific action required.,50349.17
+CUST10611,LN100860,70000,Debt Consolidation,24,3378.45,0,Active,243000,37,634,26-12-2025,14.53,26-10-2026,0,No Flag,No specific action required.,43266.79
+CUST10516,LN100861,90000,Debt Consolidation,48,2538.66,0,Active,513000,40,653,27-12-2025,15.74,27-09-2026,34,No Flag,No specific action required.,78622.64
+CUST10261,LN100862,520000,Debt Consolidation,24,25820.05,0,Active,452000,50,716,29-12-2025,17.44,29-08-2026,63,No Flag,No specific action required.,386450.21
+CUST10274,LN100863,265000,Medical,60,6995.84,0,Active,384000,51,541,29-12-2025,19.83,29-08-2026,63,No Flag,No specific action required.,245749.53
+CUST10718,LN100864,645000,Education,36,21380.13,0,Active,738000,46,700,01-01-2026,11.86,01-10-2026,0,No Flag,No specific action required.,504487.74
+CUST10448,LN100865,95000,Personal,48,2589.35,0,Active,434000,53,611,01-01-2026,13.86,01-10-2026,0,No Flag,No specific action required.,80933.69
+CUST10467,LN100866,220000,Home Improvement,36,7440.25,0,Active,329000,39,619,02-01-2026,13.26,02-10-2026,0,No Flag,No specific action required.,172871.83
+CUST10520,LN100867,50000,Personal,36,1663.58,0,Active,389000,36,634,03-01-2026,12.12,03-10-2026,0,No Flag,No specific action required.,39141.42
+CUST10464,LN100868,50000,Personal,36,1633.39,0,Active,294000,45,592,04-01-2026,10.85,04-10-2026,0,No Flag,No specific action required.,38975.53
+CUST10384,LN100869,65000,Home Improvement,24,3063.72,0,Active,446000,37,572,13-01-2026,12.13,13-10-2026,0,No Flag,No specific action required.,42443.1
+CUST10399,LN100870,175000,Home Improvement,12,15600.98,0,Active,871000,27,604,13-01-2026,12.64,13-10-2026,0,No Flag,No specific action required.,45834
+CUST10198,LN100871,300000,Debt Consolidation,60,6561.69,0,Active,1352000,29,637,15-01-2026,11.26,15-10-2026,0,No Flag,No specific action required.,264986.02
+CUST10346,LN100872,385000,Personal,24,17976.21,129209.6,Default,700000,26,658,15-01-2026,11.18,15-06-2026,138,No Flag,No specific action required.,326633.46
+CUST10675,LN100873,330000,Debt Consolidation,24,15842.69,0,Active,1069000,49,676,16-01-2026,13.99,16-10-2026,0,No Flag,No specific action required.,216867.15
+CUST10236,LN100874,305000,Home Improvement,48,7162.93,0,Active,982000,27,850,16-01-2026,6,16-10-2026,0,No Flag,No specific action required.,253231.84
+CUST10678,LN100876,55000,Medical,60,1228.73,0,Active,306000,25,586,26-01-2026,12.19,26-10-2026,0,No Flag,No specific action required.,48718.86
+CUST10435,LN100877,100000,Home Improvement,24,4441.08,0,Active,469000,31,768,26-01-2026,6.2,26-10-2026,0,No Flag,No specific action required.,63941.49
+CUST10160,LN100878,330000,Debt Consolidation,24,16211.49,0,Active,554000,22,615,27-01-2026,16.34,27-09-2026,34,No Flag,No specific action required.,244546.24
+CUST10279,LN100879,120000,Medical,60,2647.55,0,Active,305000,24,802,28-01-2026,11.64,28-10-2026,0,No Flag,No specific action required.,106118.05
+CUST10678,LN100880,50000,Medical,24,2436.23,0,Active,306000,25,586,28-01-2026,15.5,28-10-2026,0,No Flag,No specific action required.,33028.34
+CUST10236,LN100881,790000,Medical,36,25770.16,0,Active,982000,27,850,31-01-2026,10.75,31-10-2026,0,No Flag,No specific action required.,615606.09
+CUST10559,LN100882,755000,Debt Consolidation,24,38168.64,0,Active,967000,23,655,01-02-2026,19.3,01-10-2026,0,No Flag,No specific action required.,534689.27
+CUST10386,LN100883,690000,Debt Consolidation,36,22482.04,0,Active,1038000,34,771,04-02-2026,10.67,04-10-2026,0,No Flag,No specific action required.,555082.71
+CUST10515,LN100884,345000,Debt Consolidation,24,15595.55,0,Active,2000000,40,850,06-02-2026,7.95,06-10-2026,0,No Flag,No specific action required.,236018.63
+CUST10604,LN100885,205000,Medical,36,7047.31,0,Active,758000,27,529,07-02-2026,14.41,07-10-2026,0,No Flag,No specific action required.,166735.8
+CUST10369,LN100886,155000,Personal,24,7267.47,0,Active,1140000,24,637,07-02-2026,11.6,07-09-2026,54,No Flag,No specific action required.,119537.81
+CUST10490,LN100887,185000,Education,36,6330.95,0,Active,365000,30,579,11-02-2026,14.09,11-10-2026,0,No Flag,No specific action required.,150330.22
+CUST10373,LN100889,170000,Personal,48,4543.82,0,Active,363000,42,674,14-02-2026,12.8,14-09-2026,47,No Flag,No specific action required.,153173.96
+CUST10423,LN100890,190000,Personal,36,6689.22,96202.63,Default,613000,32,541,18-02-2026,16.1,18-07-2026,105,No Flag,No specific action required.,173103.52
+CUST10505,LN100891,1000000,Education,12,88129.97,0,Active,1773000,44,789,21-02-2026,10.46,21-10-2026,0,No Flag,No specific action required.,344969.8
+CUST10132,LN100892,85000,Home Improvement,24,3855.57,0,Active,548000,40,781,23-02-2026,8.29,23-10-2026,0,No Flag,No specific action required.,58212.07
+CUST10154,LN100893,100000,Debt Consolidation,48,2668.87,0,Active,943000,47,690,26-02-2026,12.72,26-10-2026,0,No Flag,No specific action required.,86641.24
+CUST10235,LN100894,275000,Education,48,7653.46,0,Active,675000,37,568,26-02-2026,15,26-10-2026,0,No Flag,Credit Score corrected to 568 using customer records.,239759.3
+CUST10364,LN100895,105000,Home Improvement,36,3439.55,0,Active,501000,44,642,02-03-2026,11.04,02-10-2026,0,No Flag,No specific action required.,87199.83
+CUST10294,LN100896,745000,Education,36,25105.58,0,Active,1720000,46,630,03-03-2026,13.01,03-10-2026,0,No Flag,No specific action required.,621852.42
+CUST10307,LN100897,270000,Education,36,8747.68,0,Active,731000,23,735,04-03-2026,10.28,04-10-2026,0,No Flag,No specific action required.,223782.99
+CUST10694,LN100898,535000,Personal,24,25141.86,0,Active,1025000,37,694,05-03-2026,11.83,05-10-2026,0,No Flag,No specific action required.,391745.12
+CUST10337,LN100899,165000,Home Improvement,24,7836.65,0,Active,321000,33,635,07-03-2026,12.9,07-10-2026,0,No Flag,No specific action required.,121166.19
+CUST10500,LN100900,145000,Home Improvement,48,3725.81,0,Active,808000,57,722,08-03-2026,10.69,08-10-2026,0,No Flag,No specific action required.,127499.11
+CUST10249,LN100901,190000,Home Improvement,24,8692.31,0,Active,770000,38,752,08-03-2026,9.14,08-10-2026,0,No Flag,No specific action required.,138110.31
+CUST10562,LN100902,790000,Personal,48,22616.05,0,Active,1264000,32,606,09-03-2026,16.56,09-10-2026,0,No Flag,No specific action required.,704527.79
+CUST10549,LN100903,150000,Personal,36,4797.93,0,Active,441000,44,663,11-03-2026,9.4,11-10-2026,0,No Flag,No specific action required.,124035.65
+CUST10324,LN100904,105000,Debt Consolidation,48,2809.08,0,Active,587000,30,693,15-03-2026,12.85,15-10-2026,0,No Flag,No specific action required.,92821.41
+CUST10505,LN100905,255000,Home Improvement,60,5213.3,0,Active,1773000,44,789,15-03-2026,8.35,15-10-2026,0,No Flag,No specific action required.,230419.15
+CUST10690,LN100906,70000,Personal,36,2292.37,0,Active,233000,36,697,17-03-2026,11.02,17-10-2026,0,No Flag,No specific action required.,58130.19
+CUST10270,LN100907,350000,Debt Consolidation,60,7262.03,0,Active,1191000,29,781,18-03-2026,8.98,18-10-2026,0,No Flag,No specific action required.,316761.18
+CUST10257,LN100908,305000,Personal,36,10925.76,0,Active,386000,43,592,23-03-2026,17.34,23-10-2026,0,No Flag,No specific action required.,257344.04
+CUST10513,LN100909,335000,Debt Consolidation,36,10618.64,0,Active,2000000,32,807,29-03-2026,8.78,29-10-2026,0,No Flag,No specific action required.,276556.72
+CUST10288,LN100910,190000,Home Improvement,24,8924.45,0,Active,526000,48,716,30-03-2026,11.78,30-10-2026,0,No Flag,No specific action required.,139105.69
+CUST10462,LN100911,65000,Debt Consolidation,48,1689.76,0,Active,408000,49,682,30-03-2026,11.31,30-10-2026,0,No Flag,Missing Age filled with 49 using customer records.,57243.47
+CUST10278,LN100912,355000,Personal,12,31767.62,0,Active,443000,39,592,03-04-2026,13.36,03-10-2026,0,No Flag,No specific action required.,183393.57
+CUST10471,LN100913,75000,Personal,36,2522.35,0,Active,589000,34,640,05-04-2026,12.87,05-10-2026,0,No Flag,No specific action required.,64411.77
+CUST10195,LN100914,385000,Personal,36,12977.74,0,Active,849000,26,768,08-04-2026,13.03,08-08-2026,84,No Flag,No specific action required.,358320.56
+CUST10690,LN100915,80000,Home Improvement,60,1781.17,4296.42,Default,233000,36,697,08-04-2026,12.04,08-07-2026,115,No Flag,No specific action required.,78033.17
+CUST10158,LN100916,215000,Debt Consolidation,36,7047.99,0,Active,762000,38,735,09-04-2026,11.09,09-10-2026,0,No Flag,No specific action required.,183923.51
+CUST10179,LN100917,60000,Personal,48,1409.1,0,Active,491000,47,735,09-04-2026,6,09-10-2026,0,No Flag,No specific action required.,53261.65
+CUST10200,LN100918,170000,Debt Consolidation,24,8323.73,0,Active,432000,42,670,10-04-2026,16,10-10-2026,0,No Flag,No specific action required.,132424.46
+CUST10614,LN100919,425000,Personal,24,20397.45,0,Active,575000,32,646,12-04-2026,13.96,12-10-2026,0,No Flag,No specific action required.,329541.54
+CUST10498,LN100920,615000,Medical,36,20701.05,86232.05,Default,798000,45,643,13-04-2026,12.93,13-07-2026,110,No Flag,No specific action required.,586699.5
+CUST10515,LN100921,550000,Home Improvement,60,10633.04,0,Active,2000000,40,850,13-04-2026,6,13-08-2026,79,No Flag,No specific action required.,526232.43
+CUST10483,LN100922,925000,Education,24,43297.15,0,Active,1600000,53,686,14-04-2026,11.43,14-10-2026,0,No Flag,No specific action required.,713090.58
+CUST10118,LN100923,500000,Debt Consolidation,12,45107.92,0,Active,864000,37,654,20-04-2026,14.91,20-10-2026,0,No Flag,No specific action required.,259257.1
+CUST10333,LN100924,130000,Education,60,2805.17,0,Active,561000,27,706,23-04-2026,10.67,23-10-2026,0,No Flag,No specific action required.,119881.9
+CUST10376,LN100925,275000,Debt Consolidation,36,9646.48,0,Active,743000,21,578,24-04-2026,15.84,24-10-2026,0,No Flag,No specific action required.,237688.71
+CUST10370,LN100927,50000,Home Improvement,24,2270.5,0,Active,296000,48,745,25-04-2026,8.4,25-10-2026,0,No Flag,No specific action required.,38273.47
+CUST10250,LN100928,100000,Education,12,8606.64,0,Active,678000,37,768,28-04-2026,6,28-10-2026,0,No Flag,No specific action required.,50748.08
+CUST10014,LN100929,50000,Home Improvement,24,2376.62,0,Active,462000,32,588,29-04-2026,12.98,29-10-2026,0,No Flag,No specific action required.,38683.08
+CUST10141,LN100930,230000,Home Improvement,36,7577.92,0,Active,424000,21,635,01-05-2026,11.44,01-10-2026,0,No Flag,No specific action required.,202555.42
+CUST10161,LN100931,120000,Debt Consolidation,36,4113.57,0,Active,857000,30,614,12-05-2026,14.21,12-10-2026,19,No Flag,No specific action required.,109036.92
+CUST10188,LN100932,1000000,Home Improvement,48,25967.1,0,Active,2000000,35,602,14-05-2026,11.25,14-10-2026,0,No Flag,No specific action required.,915469.35
+CUST10164,LN100933,90000,Personal,60,2115.67,0,Active,290000,33,658,16-05-2026,14.46,16-10-2026,0,No Flag,No specific action required.,84718.4
+CUST10073,LN100934,220000,Debt Consolidation,60,4868.25,0,Active,1707000,30,683,18-05-2026,11.77,18-10-2026,0,No Flag,No specific action required.,206179.46
+CUST10044,LN100935,410000,Debt Consolidation,48,12308.86,0,Active,387000,37,628,22-05-2026,19.23,22-10-2026,9,No Flag,No specific action required.,386487.85
+CUST10317,LN100936,55000,Education,48,1334.98,0,Active,705000,38,788,26-05-2026,7.7,26-10-2026,0,No Flag,No specific action required.,50026.27
+CUST10054,LN100937,120000,Debt Consolidation,24,5589.6,0,Active,532000,42,767,29-05-2026,10.94,29-10-2026,0,No Flag,No specific action required.,97108.41
+CUST10378,LN100938,65000,Debt Consolidation,36,2108.37,0,Active,1065000,45,761,03-06-2026,10.36,03-10-2026,0,No Flag,No specific action required.,58730.58
+CUST10203,LN100939,230000,Medical,48,6057.91,0,Active,593000,38,616,04-06-2026,12.01,04-10-2026,0,No Flag,No specific action required.,214748.96
+CUST10481,LN100940,385000,Home Improvement,60,8382.36,0,Active,1737000,38,763,07-06-2026,11.06,07-10-2026,0,No Flag,No specific action required.,365395.27
+CUST10363,LN100941,360000,Home Improvement,12,31798.93,0,Active,1056000,21,696,07-06-2026,10.89,07-10-2026,0,No Flag,No specific action required.,244309.3
+CUST10172,LN100942,180000,Home Improvement,36,5735.69,0,Active,522000,56,807,10-06-2026,9.14,10-10-2026,0,No Flag,No specific action required.,162340.77
+CUST10589,LN100943,255000,Debt Consolidation,24,12566.16,0,Active,452000,37,609,12-06-2026,16.66,12-10-2026,0,No Flag,Credit Score corrected to 609 using customer records.,218137.53
+CUST10633,LN100944,950000,Home Improvement,36,31232.41,0,Active,1801000,36,748,15-06-2026,11.29,15-10-2026,0,No Flag,No specific action required.,859555.59
+CUST10267,LN100945,205000,Home Improvement,36,6695.91,0,Active,452000,26,720,15-06-2026,10.84,15-10-2026,0,No Flag,No specific action required.,185359.54
+CUST10253,LN100946,70000,Home Improvement,24,3262.55,0,Active,508000,21,603,15-06-2026,11,15-10-2026,0,No Flag,No specific action required.,59371.44
+CUST10219,LN100947,425000,Personal,60,10776.03,0,Active,1119000,21,616,16-06-2026,17.93,16-10-2026,0,No Flag,No specific action required.,406895.97
+CUST10708,LN100948,435000,Debt Consolidation,24,20735.9,0,Active,999000,27,592,17-06-2026,13.27,17-08-2026,75,No Flag,No specific action required.,419074.47
+CUST10526,LN100949,155000,Personal,48,4087.07,0,Active,426000,40,793,19-06-2026,12.07,19-10-2026,0,No Flag,No specific action required.,144734.28
+CUST10259,LN100950,135000,Debt Consolidation,36,4509.12,0,Active,622000,21,655,22-06-2026,12.39,22-10-2026,0,No Flag,No specific action required.,122344.7
+CUST10710,LN100951,270000,Personal,12,24485.83,0,Active,1030000,21,540,23-06-2026,15.91,23-10-2026,0,No Flag,Annual Income error corrected to 1030000.,184697.84
+CUST10035,LN100952,50000,Medical,12,4420.95,0,Active,227000,35,650,25-06-2026,11.08,25-10-2026,0,No Flag,No specific action required.,33942.17
+CUST10091,LN100953,365000,Medical,12,32388.84,0,Active,1335000,47,682,26-06-2026,11.76,26-10-2026,0,No Flag,No specific action required.,248047.4
+CUST10406,LN100954,290000,Education,48,7699.61,0,Active,433000,35,737,27-06-2026,12.44,27-10-2026,0,No Flag,No specific action required.,270932.94
+CUST10662,LN100955,270000,Home Improvement,12,24409.26,0,Active,494000,35,590,27-06-2026,15.31,27-10-2026,0,No Flag,No specific action required.,184523.44
+CUST10698,LN100956,235000,Education,12,20763.11,0,Active,763000,44,688,29-06-2026,10.94,29-10-2026,0,No Flag,No specific action required.,159492.46
+CUST10512,LN100957,265000,Education,36,8744.94,0,Active,878000,32,620,30-06-2026,11.55,30-10-2026,0,No Flag,No specific action required.,239862.7
+CUST10534,LN100958,495000,Medical,36,18219.9,0,Active,885000,35,442,02-07-2026,19.3,02-10-2026,0,No Flag,No specific action required.,463726.42
+CUST10397,LN100959,100000,Education,60,2057.92,0,Active,617000,34,784,02-07-2026,8.63,02-10-2026,0,No Flag,No specific action required.,95954.77
+CUST10306,LN100960,130000,Home Improvement,36,4147.9,0,Active,330000,36,718,04-07-2026,9.23,04-10-2026,0,No Flag,No specific action required.,120483.24
+CUST10694,LN100961,345000,Medical,24,15562.54,0,Active,1025000,37,694,05-07-2026,7.74,05-10-2026,0,No Flag,No specific action required.,304729.51
+CUST10544,LN100962,220000,Personal,60,4697.11,0,Active,872000,49,703,07-07-2026,10.21,07-10-2026,0,No Flag,No specific action required.,211451.84
+CUST10372,LN100963,255000,Home Improvement,48,6579.47,0,Active,1529000,39,716,07-07-2026,10.91,07-10-2026,0,No Flag,No specific action required.,242100.15
+CUST10427,LN100964,230000,Home Improvement,12,20544.05,0,Active,411000,38,578,09-07-2026,13.01,09-10-2026,0,No Flag,No specific action required.,175259.38
+CUST10069,LN100965,160000,Home Improvement,24,7786.78,0,Active,292000,39,591,17-07-2026,15.38,17-10-2026,14,No Flag,Interest Rate outlier 58.5 replaced with 15.38.,148454.25
+CUST10208,LN100966,50000,Home Improvement,12,4486.53,0,Active,259000,27,514,21-07-2026,13.88,21-10-2026,0,No Flag,No specific action required.,38139.26
+CUST10064,LN100967,335000,Debt Consolidation,12,29618.79,0,Active,1002000,55,646,22-07-2026,11.07,22-10-2026,0,No Flag,No specific action required.,254678.31
+CUST10208,LN100968,50000,Personal,36,1721.78,0,Active,259000,27,514,22-07-2026,14.53,22-08-2026,70,No Flag,No specific action required.,50000
+CUST10315,LN100969,325000,Personal,24,15855.61,0,Active,595000,30,678,26-07-2026,15.63,26-10-2026,0,No Flag,No specific action required.,289676.41
+CUST10531,LN100970,120000,Education,24,5722.51,0,Active,464000,21,607,29-07-2026,13.31,29-10-2026,0,No Flag,No specific action required.,106678.81
+CUST10695,LN100971,485000,Personal,60,11129.81,0,Active,862000,33,609,29-07-2026,13.38,29-08-2026,63,No Flag,No specific action required.,485000
+CUST10590,LN100972,70000,Education,36,2325.67,0,Active,277000,50,637,07-08-2026,12.02,07-10-2026,0,No Flag,No specific action required.,66734.72
+CUST10703,LN100973,285000,Personal,60,6361.29,0,Active,653000,42,688,09-08-2026,12.15,09-10-2026,0,No Flag,No specific action required.,278013.48
+CUST10055,LN100974,505000,Personal,36,18160.84,0,Active,1120000,56,506,10-08-2026,17.62,10-10-2026,0,No Flag,No specific action required.,483350.71
+CUST10183,LN100975,160000,Medical,60,3891.74,0,Active,314000,40,542,12-08-2026,16.01,12-10-2026,0,No Flag,No specific action required.,156462.41
+CUST10537,LN100976,200000,Personal,48,5034.18,0,Active,1162000,21,713,12-08-2026,9.6,12-10-2026,0,No Flag,No specific action required.,193104.16
+CUST10460,LN100977,110000,Home Improvement,36,3402.52,0,Active,830000,45,850,17-08-2026,7.12,17-10-2026,0,No Flag,No specific action required.,104483.98
+CUST10343,LN100978,130000,Home Improvement,24,6211.01,0,Active,502000,52,524,18-08-2026,13.5,18-10-2026,0,No Flag,No specific action required.,120449.56
+CUST10057,LN100980,115000,Education,36,4016.42,0,Active,200000,40,573,20-08-2026,15.53,20-10-2026,0,No Flag,No specific action required.,109911.02
+CUST10022,LN100981,160000,Debt Consolidation,24,7386.14,0,Active,536000,38,804,24-08-2026,10.04,24-10-2026,0,No Flag,No specific action required.,147854.45
+CUST10081,LN100982,120000,Home Improvement,60,2509.1,0,Active,538000,27,709,24-08-2026,9.31,24-10-2026,0,No Flag,No specific action required.,116831.57
+CUST10428,LN100983,260000,Personal,36,8591.08,0,Active,1857000,47,650,25-08-2026,11.64,25-10-2026,0,No Flag,No specific action required.,247802.96
+CUST10434,LN100984,85000,Home Improvement,12,7505.7,0,Active,359000,44,627,25-08-2026,10.83,25-10-2026,0,No Flag,No specific action required.,71462.03
+CUST10062,LN100985,85000,Debt Consolidation,12,7585.59,0,Active,740000,38,657,25-08-2026,12.84,25-10-2026,0,No Flag,No specific action required.,71576.39
+CUST10205,LN100986,110000,Medical,48,2800.46,0,Active,505000,46,660,26-08-2026,10.2,26-09-2026,35,No Flag,No specific action required.,110000
+CUST10439,LN100987,105000,Education,48,2768.15,0,Active,400000,24,650,29-08-2026,12.06,29-10-2026,0,No Flag,No specific action required.,101556.99
+CUST10379,LN100988,135000,Medical,12,11900.69,0,Active,666000,44,678,29-08-2026,10.51,29-10-2026,0,No Flag,No specific action required.,113469.5
+CUST10267,LN100989,115000,Home Improvement,48,2801.01,0,Active,452000,26,720,29-08-2026,7.88,29-10-2026,0,No Flag,No specific action required.,110894.87
+CUST10059,LN100990,150000,Medical,48,3994.41,0,Active,1216000,42,662,29-08-2026,12.6,29-10-2026,0,No Flag,No specific action required.,145135.78
+CUST10041,LN100991,305000,Education,60,7007.01,0,Active,821000,26,716,30-08-2026,13.43,30-10-2026,0,No Flag,No specific action required.,297772.68
+CUST10499,LN100992,255000,Home Improvement,60,5594.04,0,Active,495000,34,642,31-08-2026,11.39,30-09-2026,31,No Flag,No specific action required.,255000

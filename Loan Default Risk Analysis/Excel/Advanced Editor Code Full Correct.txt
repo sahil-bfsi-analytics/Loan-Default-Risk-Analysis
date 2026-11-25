@@ -1,0 +1,435 @@
+let
+    Source = Excel.CurrentWorkbook(){[Name="Table1"]}[Content],
+
+    // 1. Create Data_Quality_Flag if it does not exist
+    #"Ensure Data Quality Flag" =
+        if Table.HasColumns(Source, "Data_Quality_Flag") then
+            Source
+        else
+            Table.AddColumn(Source, "Data_Quality_Flag", each "No Flag", type text),
+
+    // 2. Initial data types
+    #"Changed Type" = Table.TransformColumnTypes(#"Ensure Data Quality Flag",{
+        {"Customer_ID", type text},
+        {"Age", type any},
+        {"Loan_ID", type text},
+        {"Loan_Amount", Int64.Type},
+        {"Loan_Purpose", type text},
+        {"Loan_Term_Months", Int64.Type},
+        {"EMI_Amount", type number},
+        {"Outstanding_Balance", type number},
+        {"Recovery_Amount", type number},
+        {"Loan_Status", type text},
+        {"Annual_Income", Int64.Type},
+        {"Credit_Score", Int64.Type},
+        {"Loan_Date", type datetime},
+        {"Interest_Rate", type number},
+        {"Payment_Due_Date", type datetime},
+        {"Days_Past_Due", Int64.Type},
+        {"Data_Quality_Flag", type text}
+    }),
+
+    // 3. Remove duplicate Loan_ID
+    #"Removed Duplicates" =
+        Table.Distinct(#"Changed Type", {"Loan_ID"}),
+
+    // 4. Annual Income error handling
+    #"Annual Income To Text" =
+        Table.TransformColumnTypes(
+            #"Removed Duplicates",
+            {{"Annual_Income", type text}}
+        ),
+
+    #"Fixed Annual Income Errors" =
+        Table.ReplaceErrorValues(
+            #"Annual Income To Text",
+            {{"Annual_Income", "1030000"}}
+        ),
+
+    #"Annual Income To Number" =
+        Table.TransformColumnTypes(
+            #"Fixed Annual Income Errors",
+            {{"Annual_Income", Int64.Type}}
+        ),
+
+    #"Fixed Annual Income Nulls" =
+        Table.AddColumn(
+            #"Annual Income To Number",
+            "Annual_Income_New",
+            each
+                if [Customer_ID] = "CUST10287" and [Annual_Income] = null then 465000
+                else if [Customer_ID] = "CUST10056" and [Annual_Income] = null then 200000
+                else [Annual_Income],
+            Int64.Type
+        ),
+
+    #"Removed Old Annual Income" =
+        Table.RemoveColumns(#"Fixed Annual Income Nulls", {"Annual_Income"}),
+
+    #"Renamed Annual Income" =
+        Table.RenameColumns(
+            #"Removed Old Annual Income",
+            {{"Annual_Income_New", "Annual_Income"}}
+        ),
+
+    // 5. Clean Age text values
+    #"Age To Text" =
+        Table.TransformColumnTypes(
+            #"Renamed Annual Income",
+            {{"Age", type text}}
+        ),
+
+    #"Cleaned Age Text" =
+        Table.AddColumn(
+            #"Age To Text",
+            "Age_Clean",
+            each
+                if [Loan_ID] = "LN100069" and [Age] = "38 yrs" then "38"
+                else if [Customer_ID] = "CUST10462"
+                    and [Loan_ID] = "LN100911"
+                    and [Age] = null then "49"
+                else [Age],
+            type text
+        ),
+
+    #"Removed Old Age" =
+        Table.RemoveColumns(#"Cleaned Age Text", {"Age"}),
+
+    #"Renamed Clean Age" =
+        Table.RenameColumns(
+            #"Removed Old Age",
+            {{"Age_Clean", "Age"}}
+        ),
+
+    // 6. Calculate Age Median using valid ages
+    AgeValues =
+        List.Transform(
+            Table.Column(#"Renamed Clean Age", "Age"),
+            each try Number.FromText(Text.Trim(Text.From(_))) otherwise null
+        ),
+
+    ValidAgeValues =
+        List.Select(
+            AgeValues,
+            each _ <> null and _ >= 18 and _ <= 100
+        ),
+
+    AgeMedian =
+        List.Median(ValidAgeValues),
+
+    // 7. Replace Age outlier (CUST10348 -> 28, from the same customer's other loan)
+    #"Fixed Age Outlier" =
+        Table.AddColumn(
+            #"Renamed Clean Age",
+            "Age_New",
+            each
+                if [Loan_ID] = "LN100754"
+                    and [Age] <> null
+                    and Text.Trim([Age]) = "142"
+                then "28"
+                else [Age],
+            type text
+        ),
+
+    #"Removed Old Age 2" =
+        Table.RemoveColumns(#"Fixed Age Outlier", {"Age"}),
+
+    #"Renamed Age 2" =
+        Table.RenameColumns(
+            #"Removed Old Age 2",
+            {{"Age_New", "Age"}}
+        ),
+
+    #"Age To Whole Number" =
+        Table.TransformColumnTypes(
+            #"Renamed Age 2",
+            {{"Age", Int64.Type}}
+        ),
+
+    // 8. Calculate Credit Score Median
+    ValidCreditScores =
+        List.Select(
+            Table.Column(#"Age To Whole Number", "Credit_Score"),
+            each _ <> null and _ >= 300 and _ <= 850
+        ),
+
+    CreditScoreMedian =
+        List.Median(ValidCreditScores),
+
+    // 9. Fix Credit Scores
+    #"Added Credit Score New" =
+        Table.AddColumn(
+            #"Age To Whole Number",
+            "Credit_Score_New",
+            each
+                if [Customer_ID] = "CUST10589" then 609
+                else if [Customer_ID] = "CUST10235" then 568
+                else if [Customer_ID] = "CUST10711" then 708
+                else if [Customer_ID] = "CUST10649" then 636
+                else if [Customer_ID] = "CUST10217"
+                    and ([Credit_Score] = null or [Credit_Score] = 0)
+                    then CreditScoreMedian
+                else if [Customer_ID] = "CUST10355"
+                    and ([Credit_Score] = null or [Credit_Score] = 0)
+                    then CreditScoreMedian
+                else [Credit_Score],
+            Int64.Type
+        ),
+
+    #"Removed Old Credit Score" =
+        Table.RemoveColumns(#"Added Credit Score New", {"Credit_Score"}),
+
+    #"Renamed Credit Score" =
+        Table.RenameColumns(
+            #"Removed Old Credit Score",
+            {{"Credit_Score_New", "Credit_Score"}}
+        ),
+
+    // 10. Handle Loan_Date errors and missing value
+    #"Loan Date Errors To Null" =
+        Table.ReplaceErrorValues(
+            #"Renamed Credit Score",
+            {{"Loan_Date", null}}
+        ),
+
+    #"Fixed Loan Date" =
+        Table.AddColumn(
+            #"Loan Date Errors To Null",
+            "Loan_Date_New",
+            each
+                if [Loan_ID] = "LN100254" and [Loan_Date] = null
+                then #datetime(2022, 7, 6, 0, 0, 0)
+                else [Loan_Date],
+            type datetime
+        ),
+
+    #"Removed Old Loan Date" =
+        Table.RemoveColumns(#"Fixed Loan Date", {"Loan_Date"}),
+
+    #"Renamed Loan Date" =
+        Table.RenameColumns(
+            #"Removed Old Loan Date",
+            {{"Loan_Date_New", "Loan_Date"}}
+        ),
+
+    // 11. Fix Interest Rates
+    #"Added Interest Rate New" =
+        Table.AddColumn(
+            #"Renamed Loan Date",
+            "Interest_Rate_New",
+            each
+                if [Loan_ID] = "LN100797" and [Interest_Rate] = null then 13.81
+                else if [Loan_ID] = "LN100965" and [Interest_Rate] = 58.5 then 15.38
+                else if [Loan_ID] = "LN100659" and [Interest_Rate] = 0.1312 then 13.12
+                else [Interest_Rate],
+            type number
+        ),
+
+    #"Removed Old Interest Rate" =
+        Table.RemoveColumns(#"Added Interest Rate New", {"Interest_Rate"}),
+
+    #"Renamed Interest Rate" =
+        Table.RenameColumns(
+            #"Removed Old Interest Rate",
+            {{"Interest_Rate_New", "Interest_Rate"}}
+        ),
+
+    // 12. Replace missing Loan Purpose
+    #"Replaced Null Loan Purpose" =
+        Table.ReplaceValue(
+            #"Renamed Interest Rate",
+            null,
+            "Unknown",
+            Replacer.ReplaceValue,
+            {"Loan_Purpose"}
+        ),
+
+    // 13. Handle Payment Due Date errors
+    #"Payment Date Errors To Null" =
+        Table.ReplaceErrorValues(
+            #"Replaced Null Loan Purpose",
+            {{"Payment_Due_Date", null}}
+        ),
+
+    #"Fixed Payment Due Date" =
+        Table.AddColumn(
+            #"Payment Date Errors To Null",
+            "Payment_Due_Date_New",
+            each
+                if [Loan_ID] = "LN100231" and [Payment_Due_Date] = null
+                then #datetime(2023, 5, 21, 0, 0, 0)
+                else [Payment_Due_Date],
+            type datetime
+        ),
+
+    #"Removed Old Payment Due Date" =
+        Table.RemoveColumns(#"Fixed Payment Due Date", {"Payment_Due_Date"}),
+
+    #"Renamed Payment Due Date" =
+        Table.RenameColumns(
+            #"Removed Old Payment Due Date",
+            {{"Payment_Due_Date_New", "Payment_Due_Date"}}
+        ),
+
+    // 14. Fill Days Past Due
+    #"Added Days Past Due New" =
+        Table.AddColumn(
+            #"Renamed Payment Due Date",
+            "Days_Past_Due_New",
+            each
+                if [Loan_ID] = "LN100751" and [Days_Past_Due] = null
+                then 0
+                else [Days_Past_Due],
+            Int64.Type
+        ),
+
+    #"Removed Old Days Past Due" =
+        Table.RemoveColumns(#"Added Days Past Due New", {"Days_Past_Due"}),
+
+    #"Renamed Days Past Due" =
+        Table.RenameColumns(
+            #"Removed Old Days Past Due",
+            {{"Days_Past_Due_New", "Days_Past_Due"}}
+        ),
+
+    // 15. Update Data_Quality_Flag
+    #"Updated Data Quality Flag" =
+        Table.AddColumn(
+            #"Renamed Days Past Due",
+            "Data_Quality_Flag_New",
+            each
+                if List.Contains(
+                    {
+                        "LN100751",
+                        "LN100280",
+                        "LN100357",
+                        "LN100359",
+                        "LN100780",
+                        "LN100875",
+                        "LN100926"
+                    },
+                    [Loan_ID]
+                )
+                then "Needs Investigation"
+                else if [Data_Quality_Flag] = null then "No Flag"
+                else [Data_Quality_Flag],
+            type text
+        ),
+
+    #"Removed Old Data Quality Flag" =
+        Table.RemoveColumns(
+            #"Updated Data Quality Flag",
+            {"Data_Quality_Flag"}
+        ),
+
+    #"Renamed Data Quality Flag" =
+        Table.RenameColumns(
+            #"Removed Old Data Quality Flag",
+            {{"Data_Quality_Flag_New", "Data_Quality_Flag"}}
+        ),
+
+    // 16. Clean Loan Status
+    #"Cleaned Loan Status" =
+        Table.TransformColumns(
+            #"Renamed Data Quality Flag",
+            {
+                {
+                    "Loan_Status",
+                    each
+                        if _ = null then null
+                        else
+                            let
+                                CleanText =
+                                    Text.Lower(
+                                        Text.Trim(
+                                            Text.Clean(
+                                                Text.Replace(
+                                                    Text.From(_),
+                                                    Character.FromNumber(160),
+                                                    " "
+                                                )
+                                            )
+                                        )
+                                    )
+                            in
+                                if CleanText = "active" then "Active"
+                                else if CleanText = "repaid" or CleanText = "repayed" then "Repaid"
+                                else if CleanText = "default" then "Default"
+                                else CleanText,
+                    type text
+                }
+            }
+        ),
+
+    // 17. Create What We Do column
+    #"Added What We Do" =
+        Table.AddColumn(
+            #"Cleaned Loan Status",
+            "What We Do",
+            each
+                if [Loan_ID] = "LN100951" then "Annual Income error corrected to 1030000."
+                else if [Customer_ID] = "CUST10287" and [Annual_Income] = 465000 then "Missing Annual Income filled with 465000."
+                else if [Customer_ID] = "CUST10056" and [Annual_Income] = 200000 then "Missing Annual Income filled with 200000."
+                else if [Loan_ID] = "LN100069" then "Age text '38 yrs' standardized to 38."
+                else if [Loan_ID] = "LN100911" and [Customer_ID] = "CUST10462" then "Missing Age filled with 49 using customer records."
+                else if [Loan_ID] = "LN100754" then "Age outlier 142 replaced with 28 using customer records (same customer CUST10348, loan LN100684)."
+                else if [Customer_ID] = "CUST10589" then "Credit Score corrected to 609 using customer records."
+                else if [Customer_ID] = "CUST10235" then "Credit Score corrected to 568 using customer records."
+                else if [Customer_ID] = "CUST10711" then "Credit Score corrected to 708 using customer records."
+                else if [Customer_ID] = "CUST10649" then "Credit Score corrected to 636 using customer records."
+                else if [Customer_ID] = "CUST10217" then "Credit Score checked; zero or missing value replaced with median (659), where applicable."
+                else if [Customer_ID] = "CUST10355" then "Credit Score checked; missing or zero value replaced with median (659), where applicable."
+                else if [Loan_ID] = "LN100254" then "Missing Loan Date filled with 06-07-2022."
+                else if [Loan_ID] = "LN100965" then "Interest Rate outlier 58.5 replaced with 15.38."
+                else if [Loan_ID] = "LN100797" then "Missing Interest Rate filled with 13.81."
+                else if [Loan_ID] = "LN100659" then "Interest Rate corrected from 0.1312 to 13.12."
+                else if [Loan_Purpose] = "Unknown" then "Missing Loan Purpose filled with Unknown."
+                else if [Loan_ID] = "LN100231" then "Missing Payment Due Date filled with 21-05-2023."
+                else if [Loan_ID] = "LN100751" then "Days Past Due null filled with 0; loan status may need verification."
+                else if [Loan_ID] = "LN100280" then "Outstanding Balance and Recovery Amount are both 0 despite Default status; investigate."
+                else if [Loan_ID] = "LN100357" then "Invalid Payment Due Date (month 13) set to blank; investigate."
+                else if [Loan_ID] = "LN100359" then "Loan Amount of 25500000 appears unusually high; investigate."
+                else if [Loan_ID] = "LN100780" then "Payment Due Date is before Loan Date; investigate."
+                else if [Loan_ID] = "LN100875" then "Recovery Amount exceeds the original Loan Amount; investigate."
+                else if [Loan_ID] = "LN100926" then "Outstanding Balance exceeds the original Loan Amount; investigate."
+                else if [Loan_ID] = "LN100047" then "Repaid loan has Outstanding Balance set to 0."
+                else if [Loan_ID] = "LN100424" then "Repaid loan has Outstanding Balance set to 0."
+                else "No specific action required.",
+            type text
+        ),
+
+    // 18. Fix Outstanding Balance for Repaid loans
+    #"Fixed Outstanding Balance" =
+        Table.AddColumn(
+            #"Added What We Do",
+            "Outstanding_Balance_New",
+            each
+                if List.Contains({"LN100047", "LN100424"}, [Loan_ID])
+                then 0
+                else [Outstanding_Balance],
+            type number
+        ),
+
+    #"Removed Old Outstanding Balance" =
+        Table.RemoveColumns(
+            #"Fixed Outstanding Balance",
+            {"Outstanding_Balance"}
+        ),
+
+    #"Renamed Outstanding Balance" =
+        Table.RenameColumns(
+            #"Removed Old Outstanding Balance",
+            {{"Outstanding_Balance_New", "Outstanding_Balance"}}
+        ),
+
+    // 19. Convert date columns to Date type
+    #"Changed Date Types" =
+        Table.TransformColumnTypes(
+            #"Renamed Outstanding Balance",
+            {
+                {"Loan_Date", type date},
+                {"Payment_Due_Date", type date}
+            }
+        )
+in
+    #"Changed Date Types"
